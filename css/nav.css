@@ -1,0 +1,72 @@
+body {
+    padding: 0px 0px 0px 0px;
+    z-index: 0; 
+    background-color: whitesmoke;
+}
+.navbr{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.navii{
+    font-size: 20px;
+    color: white;
+    text-align: right;
+}
+.diag-card{
+    min-width: 400px;
+    max-width: 65%;
+    height: auto;
+    width: 80%;
+    z-index: -5;
+    position: relative;
+}
+.event-illus
+{
+    top: 40px;
+    right: 40px;
+}
+button.navbar-toggler {
+    float: right;
+    padding: ;
+    margin: 20px;
+}
+.logo{
+    width: 150;
+        height: 150;
+    z-index: 5;
+    position: absolute;
+}
+@media only screen and (max-device-width: 540px){
+    .logo{
+        background-color: whitesmoke;
+        width: 100;
+        height: 100;
+    }
+
+}
+@media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+	
+}
+
+@media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+	
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+	
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+	
+}
+
+@media only screen and (min-device-width: 1025px) {
+	
+} 
