@@ -31,11 +31,7 @@ body {
     top: 40px;
     right: 40px;
 }
-button.navbar-toggler {
-    float: right;
-    padding: ;
-    margin: 20px;
-}
+
 .logo{
     width: 150;
         height: 150;
