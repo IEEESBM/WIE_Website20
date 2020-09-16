@@ -3,10 +3,169 @@ body {
     z-index: 0; 
 }
 
+/* .navbar {
+    position: absolute;
+} */
+
+
+.contcards {
+    margin-top: -11vh;
+}
+
+.cardrow {
+    color: black;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 10px rgba(0,0,0,0.2);
+}
+
+
+.navbar-dark {
+    /* background-color: #512DA8; */
+}
+
 .landingdesktop {
     width: 100%;
-    /* height: 90vh; */
-    margin-right: 0;
+}
+
+.abtieeewie {
+    margin-top: 5rem;
+    margin-bottom: -3.5rem;
+    font-size: 3rem;
+}
+
+.container .cards {
+    position: relative;
+}
+
+.container .cards .face {
+    position: relative;
+    align-content: center;
+    width: 300px;
+    height: 300x;
+    transition: .5s;
+}
+
+.container .cards .face.face1 {
+    position: relative;
+    display: flex;
+    background: linear-gradient(135deg, #4A0C59 4.2%, #CB42B5 100%);
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(135px);
+}
+
+.container .cards:hover .face.face1 {
+    transform: translateY(0);
+    /* background: rgb(8, 36, 114); */
+}
+
+.container .cards .face.face1 .content {
+    opacity: 1;
+    transition: .5s;
+}
+.container .cards:hover .face.face1 .content {
+    opacity: 1;
+
+}
+.container .cards .face.face1 img {
+    max-width: 1000px;
+}
+.container .cards .face.face2 {
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    transform: translateY(-10px);
+}
+.container .cards .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.container .cards .face.face2 .content a {
+    margin: 15px 0 0;
+    display: inline-block;
+    background: linear-gradient(135deg, #4A0C59 4.2%, #CB42B5 100%);
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+    padding: 5px;
+}
+.container .cards .face.face2 a:hover {
+    background: #333;
+    color: white;
+}
+
+.cont4 {
+    background-image: url('../img/index/hist.svg');
+    background-repeat: no-repeat;
+    background-position-y: 4.5rem;
+    height: 950px;
+}
+
+.hist {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.goals {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.goalsimg {
+    width: 100%;
+}
+
+.cont6 {
+    background-image: url('../img/index/regis.svg');
+    background-repeat: no-repeat;
+    background-position-y: 4.5rem;
+    height: 950px;
+}
+
+.registerrow {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.regisbutton {
+    margin-top: 3rem;
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 16px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
     position: absolute;
 }
 
