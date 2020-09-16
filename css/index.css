@@ -122,6 +122,8 @@ body {
 .cont4 {
     background-image: url('../img/index/hist.svg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
     background-position-y: 4.5rem;
     height: 950px;
 }
@@ -145,6 +147,8 @@ body {
 .cont6 {
     background-image: url('../img/index/regis.svg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
     background-position-y: 4.5rem;
     height: 950px;
 }
