@@ -3,9 +3,10 @@ body {
     z-index: 0; 
 }
 
-/* .navbar {
-    position: absolute;
-} */
+.navbar {
+    /* position: absolute; */
+    padding: 0rem;
+}
 
 
 .contcards {
@@ -122,9 +123,9 @@ body {
 .cont4 {
     background-image: url('../img/index/hist.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position-x: center;
-    background-position-y: 4.5rem;
+    background-position-y: 0.5rem;
     height: 950px;
 }
 
@@ -147,16 +148,45 @@ body {
 .cont6 {
     background-image: url('../img/index/regis.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position-x: center;
-    background-position-y: 4.5rem;
+    background-position-y: 2.5rem;
     height: 950px;
 }
 
 .registerrow {
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
     font-size: 3rem;
+}
+
+.swiper-container {
+    width: 50%;
+    height: 40%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
 
 .regisbutton {
@@ -171,6 +201,24 @@ body {
     box-shadow: 0px 4px 16px 8px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     position: absolute;
+}
+
+.cont7 {
+    background-image: url('../img/index/socialfooter.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* background-position-y: 4.5rem; */
+    height: 365.31px;
+}
+
+.cont8 {
+    background-image: url('../img/index/footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* background-position-y: 4.5rem; */
+    height: 57.31px;
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
