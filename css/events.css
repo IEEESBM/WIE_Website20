@@ -6,45 +6,26 @@ ul {
 body {
     padding: 0px 0px 0px 0px;
     z-index: 0; 
-    background-color: whitesmoke;
+    background-color: rgb(212, 179, 202);
 }
-.card-img{
-    max-width: 20%;
-    top: 10%;
-    right: 10%;
-    z-index: 1;
-    position: absolute;
-}
-.navbr{
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.date{
 
-}
-.navii{
-    font-size: 20px;
-    color: white;
-    text-align: right;
-}
-.diag-card{
-    min-width: 400px;
-    max-width: 60%;
-    height: auto;
-    width: 80%;
-    z-index: -5;
-    position: relative;
 }
 .event-illus
 {
-    top: 40px;
-    right: 40px;
+    transition: transform .2s; /* Animation */
+    width: 65%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.event-illus:hover{
+    transform: scale(1.1);
 }
 .slideshow{
-    margin-top: 50vh;
+    margin-top: 5vh;
 }
 .logo{
     width: 150;
@@ -53,19 +34,27 @@ body {
     position: absolute;
 }
 .upcoming{
-    z-index: 999;
+    padding-top: 18vh;
 }
-@media only screen and (max-device-width: 540px){
-    .logo{
-        background-color: whitesmoke;
-        width: 100;
-        height: 100;
-    }
-
+.register{
+    padding-left: 10px;
+    padding-top: 20px;
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-	
+	.date{
+        padding: 10%;
+    }
+    .upcoming
+    {
+        text-align: center;
+    }
+    .dates{
+        text-justify: auto;
+    }
+    .event{
+        text-justify: auto;
+    }
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
