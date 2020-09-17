@@ -1,7 +1,6 @@
 body {
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 50px;
     z-index: 0; 
-    background-color: whitesmoke;
     width: 100%;
     overflow-x: hidden;
 }
@@ -35,7 +34,6 @@ body {
 }
 button.navbar-toggler {
     float: right;
-    padding: ;
     margin: 20px;
 }
 .logo{
@@ -45,9 +43,52 @@ button.navbar-toggler {
     position: absolute;
 }
 .bg{
-    top: -235px;
-    right: -150px;
+    position: relative; 
+    top:-260px; 
+    right: -455px; 
+    width: 900px;
 }
+.box{
+    width: 1000px;
+    height: 300px;
+    border: 5px solid grey;
+    border-radius: 20px;
+    padding: 50px 50px 70px 50px;
+    margin: 5px 70px;
+}
+.imgcolumn{
+    float: left;
+    width: 33%;
+}
+.txtcolumn{
+    float: left;
+    width: 66%;
+}
+.box-heading{
+    color: purple;
+}
+.button{
+    background-color: purple;
+    color: white;
+    border-color: bLack;
+}
+.cont{
+    margin: 50px 0 0;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin: 10px 40px 10px 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+  }
+  
+  .contcard {
+    padding: 2px 16px;
+  }
 @media only screen and (max-device-width: 540px){
     .logo{
         background-color: whitesmoke;

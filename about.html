@@ -13,28 +13,163 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="img/about/about.svg" class="float-right diag-card bg" alt="...">
-        <img src="img/nav/Wie logo.png" width="150" height="150" class="float-left logo" alt="">
-
-        <nav class="navbar navbar-expand-sm navbr navbar-light">
-            <a class="navbar-brand mr-auto" href="#">
-                
-            </a>
-            <div class="">
-            <button class="navbar-toggler" type="button " data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">  <!--Add fixed-top class in this line for sticky navbar-->
+        <div class="container-fluid">
+            <!-- <span class="navbar-text">
+                <a role="button" id="loginButton">
+                    <span class="fa fa-sign-in"> Login </span>
+                </a>
+            </span> -->
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <a class="nav-link active navii" href="#">Active</a>
-                <a class="nav-link navii" href="#">Link</a>
-                <a class="nav-link navii" href="#">Link</a>
-                <a class="nav-link navii" href="#">Disabled</a>
-            </div>
-            </div>
-        </nav>
 
+            <a class="navbar-brand mr-auto" href="#"><img src="./img/about/WIE logo.png" height="100" width="100" alt=""></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav ml-auto">
+                    <!-- <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li> -->
+                    <li class="nav-item"><a style="font-size: 1.3rem;" class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a style="font-size: 1.3rem;" class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a style="font-size: 1.3rem;" class="nav-link" href="#">Events</a></li>
+                    <li class="nav-item"><a style="font-size: 1.3rem;" class="nav-link" href="#">FAQs</a></li>
+                    <li class="nav-item"><a style="font-size: 1.3rem;" class="nav-link" href="#">Membership</a></li>
+                    <li class="nav-item"><a style="font-size: 1.3rem;" class="nav-link" href="#">Achievements</a></li>
+                </ul>                
+            </div>                
+        </div>
+    </nav>
 
+    <div class="container">
+        <div class="row">
+            <img src="./img/about/about.svg" class="bg" alt="...">
+        </div>
+    </div>
+
+    <div class="container cont">
+        <h1 style="text-align: center;">FAMOUS WOMEN PART OF WIE</h1>
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="box">
+                    <div class="imgcolumn">
+                        <img src="./img/about/lisawie.jpg">
+                    </div>
+                    <div class="txtcolumn">
+                        <h2 class="box-heading">Name of Person</h2><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium illo
+                            dolorum ullam dolore voluptate. Curabitur leo lorem, laoreet eget massa nec, 
+                            finibus fermentum libero. Nunc porta nisi at fermentum hendrerit.<br><br></p>
+                        <button class="button">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="box">
+                    <div class="imgcolumn">
+                        <img src="./img/about/lisawie.jpg">
+                    </div>
+                    <div class="txtcolumn">
+                        <h2 class="box-heading">Name of Person</h2><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium illo
+                            dolorum ullam dolore voluptate. Curabitur leo lorem, laoreet eget massa nec, 
+                            finibus fermentum libero. Nunc porta nisi at fermentum hendrerit.<br><br></p>
+                        <button class="button">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="box">
+                    <div class="imgcolumn">
+                        <img src="./img/about/lisawie.jpg">
+                    </div>
+                    <div class="txtcolumn">
+                        <h2 class="box-heading">Name of Person</h2><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium illo
+                            dolorum ullam dolore voluptate. Curabitur leo lorem, laoreet eget massa nec, 
+                            finibus fermentum libero. Nunc porta nisi at fermentum hendrerit.<br><br></p>
+                        <button class="button">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container cont">
+        <div class="row">
+            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                <!-- Carousel -->
+                <div id="carousel-example" class="carousel slide">
+                       <ol class="carousel-indicators">
+                           <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                           <li data-target="#carousel-example" data-slide-to="1"></li>
+                           <li data-target="#carousel-example" data-slide-to="2"></li>
+                       </ol>
+                       <div class="carousel-inner">
+                           <div class="carousel-item active">
+                               <div class="embed-responsive embed-responsive-16by9">
+                                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FEeTLopLkEo" allowfullscreen></iframe>
+                               </div>
+                           </div>
+                           <div class="carousel-item">
+                               <div class="embed-responsive embed-responsive-16by9">
+                                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FEeTLopLkEo" allowfullscreen></iframe>
+                               </div>
+                           </div>
+                           <div class="carousel-item">
+                               <div class="embed-responsive embed-responsive-16by9">
+                                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FEeTLopLkEo" allowfullscreen></iframe>
+                               </div>
+                           </div>
+                       </div>
+                    <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                   </div>
+                <!-- End carousel -->
+            </div>
+        </div>
+    </div>
+    <div class="container cont">
+        <h2 style="color: purple; text-align: center;" >Team</h2>
+        <div class="row justify-content-center">
+            <div class="card">
+                <img src="./img/about/Wie logo.png" style="width: 100%; background-color: purple">
+                <div class="contcard">
+                    <h4><b>Board Member</b></h4> 
+                    <p>Position and Title</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/about/Wie logo.png" style="width: 100%; background-color: purple">
+                <div class="contcard">
+                    <h4><b>Board Member</b></h4> 
+                    <p>Position and Title</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/about/Wie logo.png" style="width: 100%; background-color: purple">
+                <div class="contcard">
+                    <h4><b>Board Member</b></h4> 
+                    <p>Position and Title</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/about/Wie logo.png" style="width: 100%; background-color: purple">
+                <div class="contcard">
+                    <h4><b>Board Member</b></h4> 
+                    <p>Position and Title</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
