@@ -64,9 +64,12 @@ body{
     border-radius: 0.8rem;
 }
 
-.blog-post__img:hover::before
-{
+/* .blog-post__img:hover::before {      // Old Anushree's code
     opacity: 0; 
+} */
+
+.blog-post:hover .blog-post__img::before {      /*New code for opacity 0 on hover over entire card*/
+    opacity: 0;
 }
 
 
