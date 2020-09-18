@@ -23,3 +23,72 @@ body {
 @media only screen and (min-device-width: 1025px) {
 	
 } 
+.bg{
+    position: relative; 
+    top:-260px; 
+    right: -455px; 
+    width: 900px;
+}
+.diag-card{
+    min-width: 400px;
+    max-width: 60%;
+    height: auto;
+    width: 80%;
+    z-index: -5;
+    position: relative;
+}
+.content{
+    width: 90%;
+    margin: 30px auto 30px;
+    
+}
+.content .main-content{
+    width: 70%;
+    float: left;
+   
+.content .main-content .recent-post-title{
+    margin: 20px;
+}
+.content .main-content .post{
+    width: 95%;
+    height: 270px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+}
+.content .main-content .post .post-image{
+    width: 5%;
+    height: 5%;
+    float: left;
+}
+.content .main-content .post .post-preview{
+    padding: 10px;
+    width: 60%;
+    float: right;
+}
+.btn {
+   padding: 5rem 1rem;
+   background: purple;
+   color: white;
+   border: 1px solid transparent;
+   border-radius: 0.25rem;
+}
+.btn:hover{
+    color: purple !important;
+    background: rgb(99, 1, 99);
+}
+.content .main-content .post .read-more{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid purple;
+    background: transparent;
+    border-radius: 0px;
+    color: purple !important; 
+}
+.content .main-content .post .read-more:hover{
+    background: purple;
+    color:purple !important;
+    transition: .25s;
+}
