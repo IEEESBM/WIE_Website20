@@ -45,6 +45,7 @@ body {
 .content .main-content{
     width: 70%;
     float: left;
+}
    
 .content .main-content .recent-post-title{
     margin: 20px;
@@ -58,8 +59,8 @@ body {
     position: relative;
 }
 .content .main-content .post .post-image{
-    width: 5%;
-    height: 5%;
+    width: 70%;
+    height: 100%;
     float: left;
 }
 .content .main-content .post .post-preview{
