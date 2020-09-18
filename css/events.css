@@ -51,9 +51,12 @@ body {
     }
     .dates{
         text-justify: auto;
+        font-size: small;
     }
     .event{
         text-justify: auto;
+        font-size: small;
+        text-align: left;
     }
 }
 
