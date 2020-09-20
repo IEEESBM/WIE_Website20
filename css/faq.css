@@ -86,14 +86,14 @@ align-items: center;
     justify-content: center;
     
 }
-.accordion__input{
+.accordion__input[type="checkbox"]{
     display: none;
 
 }
-.accordion__input:checked ~ .accordion__content{
+.accordion__input[type="checkbox"]:checked ~ .accordion__content{
 display: block;
 }
-.accordion__input:checked ~ .accordion__label::after {
+.accordion__input[type="checkbox"]:checked ~ .accordion__label::after {
     transform: translateY(-50%) rotate(0.5turn);
 }
 section{
@@ -136,3 +136,7 @@ html{
     /* position: absolute; */
     padding: 0rem;
 }
+#accordion ul li:first-child div { 
+    display:block;
+    border-top:3px solid #FFCDCD;
+    }
