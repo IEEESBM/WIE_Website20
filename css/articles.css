@@ -98,3 +98,20 @@ content: '';
 display: block;
 clear: both;
 }
+.cont8 {
+    background-image: url('../img/index/footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 57.31px;
+}
+.cont9 {
+    background-image: url('../img/index/footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 57.31px;
+}
+.articlehead {
+    height: 100vh;
+}
