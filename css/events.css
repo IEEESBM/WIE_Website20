@@ -34,13 +34,12 @@ body {
 }
 .slideshow{
     margin-top: 5vh;
-}
+}   
 .logo{
-    width: 150;
-    height: 150;
+    height: auto;
 }
 .upcoming{
-    padding-top: 18vh;
+    padding-top: 25vh;
 }
 .register{
     padding-left: 10px;
