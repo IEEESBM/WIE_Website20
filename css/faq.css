@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
     position: relative;
     padding-bottom: 113px;
-    min-height: 100%;
+    height: 100%;
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
@@ -39,9 +39,8 @@ body {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    
- 
-
+    min-height: 0px;      
+   
 }
 .accordion__label,.accordion__content{
 padding: 14px 20px;
@@ -103,6 +102,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100%;
 }
 .diag-card{
     min-width: 400px;
@@ -118,7 +118,7 @@ section{
     right: -455px; 
     width: 900px;
 }
-footer{
+/*footer{
     height: 40px;
     position: absolute;
     bottom: 0;
@@ -126,7 +126,7 @@ footer{
     left: 0px;
     
 
-}
+}*/
 html{
     height: 100%;
     margin: 0;
@@ -140,3 +140,34 @@ html{
     display:block;
     border-top:3px solid #FFCDCD;
     }
+/*styling footer*/
+.footer{
+    background: purple;
+    color: white;
+    height: 400px;
+    padding: 20px;
+   /* width: 200px;*/
+    position: relative;
+   /* padding-top: 100px;*/
+}
+    
+.footer-bottom{
+    background: rgb(168, 18, 168);
+    color: violet;
+    height: 50px;
+    text-align: center !important;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    width: 100%;
+}
+.footer .footer-content{
+    /*border: 1px solid red;*/
+    height: 350px;
+   /* padding-top: 100px;*/
+}
+.container{
+    background: white;
+    padding-bottom: 440px;
+}
