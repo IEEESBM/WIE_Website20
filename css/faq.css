@@ -39,8 +39,10 @@ body {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    min-height: 0px;      
-   
+    min-height: 0px; 
+    position: relative;
+    /*height: 1500px;*/
+        
 }
 .accordion__label,.accordion__content{
 padding: 14px 20px;
@@ -144,8 +146,9 @@ html{
 .footer{
     background: purple;
     color: white;
-    height: 400px;
-    padding: 20px;
+    height: 450px;
+    padding: 25px;
+
    /* width: 200px;*/
     position: relative;
    /* padding-top: 100px;*/
@@ -161,13 +164,114 @@ html{
     left: 0px;
     padding-top: 20px;
     width: 100%;
+   
+    
 }
 .footer .footer-content{
     /*border: 1px solid red;*/
     height: 350px;
    /* padding-top: 100px;*/
+   display: flex;
+   padding-block-end: 10px;
+   padding-bottom: 10vw;
+   background: purple;
 }
 .container{
     background: white;
-    padding-bottom: 440px;
+    padding-bottom: 570px;
 }
+.footer .footer-content .footer-section {
+    flex: 1;
+    bottom: 0px;
+    
+}
+.footer .footer-content h1,
+.footer .footer-content h2{
+    color: white;
+}
+
+.footer .footer-content .about h1 span {
+    color: whitesmoke;
+}
+.footer .footer-content .about .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+.footer .footer-content .about .socials a {
+    border: 1px solid whitesmoke;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.footer .footer-content .about .socials a:hover {
+    border: 1px solid gray;
+    color: white;
+    transition: all .3s;
+}
+.footer .footer-content .links ul a {
+    display: block;
+    font-size: 1.0em;
+    /*margin-bottom: 10px;*/
+    transition: all .3s;
+
+}
+.footer .footer-content .links ul a:hover {
+   color: gray;
+   margin-left: 15px;
+   transition: all .3s;
+}
+
+.footer .footer-content .contact-form .contact-input {
+    background: white;
+    color: black;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .9rem 1.4rem;
+    border: none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus {
+    background:rgb(240, 233, 233);
+
+}
+.text-input{
+    padding: .7rem 1 rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 11px solid wheat;
+    outline: none;
+    color:black;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+}
+.btn-big{
+    padding:  0.5rem 1rem;
+    line-height: 1.3rem;
+    background: white;
+
+}
+.footer .footer-content .contact-form .contact-btn{
+    float: right;
+}
+.btn {
+    padding: 0.5rem 1rem;
+    background: white;
+    color:purple;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 1.1em;
+    /*min-width: min-content;*/
+ }
+ .btn:hover{
+     color:  white !important;
+     background: rgb(206, 111, 206);
+ }
