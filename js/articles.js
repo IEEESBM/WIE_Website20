@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll > 100) {
+        if (scroll > 50) {
           $(".navbar-dark").css("background" , "linear-gradient(135deg, #4A0C59 4.2%, #CB42B5 100%)");
         }
   
