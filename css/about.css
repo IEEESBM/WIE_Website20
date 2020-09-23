@@ -1,8 +1,17 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
 body {
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 50px 50px;
     z-index: 0; 
     width: 100%;
     overflow-x: hidden;
+    font-family: 'Roboto',sans-serif;
+    background-color: #eeeeee;
 }
 .navbr{
     position: absolute;
@@ -44,28 +53,9 @@ button.navbar-toggler {
 }
 .bg{
     position: relative; 
-    top:-260px; 
-    right: -455px; 
-    width: 900px;
-}
-.box{
+    top:-285px; 
+    right: -400px; 
     width: 1000px;
-    height: 300px;
-    border: 5px solid grey;
-    border-radius: 20px;
-    padding: 50px 50px 70px 50px;
-    margin: 5px 70px;
-}
-.imgcolumn{
-    float: left;
-    width: 33%;
-}
-.txtcolumn{
-    float: left;
-    width: 66%;
-}
-.box-heading{
-    color: purple;
 }
 .button{
     background-color: purple;
@@ -89,6 +79,77 @@ button.navbar-toggler {
   .contcard {
     padding: 2px 16px;
   }
+  .blog-post{
+    width: 100%;
+    max-width: 98rem;
+    padding: 3rem 3rem 3rem 5rem;
+    background-color: #ffffff;
+    display: flex;
+    box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
+    align-items: center;
+    border-radius: 0.6rem ;
+    margin: 20px;
+}
+
+.blog-post__img{
+    min-width: 20rem;
+    max-width: 20rem;
+    height: 20rem;
+    transform: translateX(-7rem);
+    position: relative;
+}
+
+.blog-post__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: .6rem;
+}
+
+.blog-post__img::before{
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right,rgba(250,1,196,0.8),rgba(75,15,99,0.8));
+    box-shadow: 0.5rem 0.5rem 0.3rem 1px rgba(0,0,0,0.05);
+    border-radius: 0.6rem;
+}
+
+/* .blog-post__img:hover::before {      // Old Anushree's code
+    opacity: 0; 
+} */
+
+.blog-post:hover .blog-post__img::before {      /*New code for opacity 0 on hover over entire card*/
+    opacity: 0;
+}
+
+
+.blog-post__date span{
+    display: block;
+    color: rgba(0,0,0,0.5);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.2rem 0;
+}
+
+.blog-post__title{
+    font-size: 2.0rem;
+    margin: 0.5rem 0 0.5rem;
+    text-transform: uppercase;
+    color:black;
+    font-weight: 1000;
+}
+
+.blog-post__text{
+    margin-bottom: 2.0rem;
+    font-size: 0.9rem;
+    color:rgba(0,0,0,0.7);
+}
+
 @media only screen and (max-device-width: 540px){
     .logo{
         background-color: whitesmoke;
@@ -96,6 +157,52 @@ button.navbar-toggler {
         height: 100;
     }
 
+}
+@media screen and (max-width:1068px){
+    .blog-post{
+        max-width: 80rem;
+    }
+
+    .blog-post__img{
+        min-width: 20rem;
+        max-width: 20rem;
+    }
+}
+
+@media screen and(max-width: 868px){
+    .blog-post{
+        max-width: 80rem;
+    }
+}
+
+.blog-post__img{
+    min-width: 30rem;
+    max-width: 30rem;
+}
+
+@media screen and(max-width:868px){
+    .blog-post{
+        padding: 2.0rem;
+        flex-direction: column;
+    }
+    .blog-post__img{
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0,-7rem);
+    }
+}
+
+@media screen and (max-width:798px){
+    .blog-post{
+        padding: 2.0rem;
+        flex-direction: column;
+    }
+
+    .blog-post__img{
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0,-7rem);
+    }
 }
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	
