@@ -10,7 +10,7 @@ body {
 
 
 .contcards {
-    margin-top: -11vh;
+    margin-top: 2vh;
 }
 
 .cardrow {
@@ -21,10 +21,52 @@ body {
     /* Add shadows to create the "card" effect */
     border: 1px solid #000000;
     box-sizing: border-box;
+    transition: 0.3s;
+    width: 318px;
+    height: 357px;
+}
+
+.card1 {
+    background: linear-gradient(90deg, #752F8B 0%, #BC14B8 327.67%);
     box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    transition: 0.3s;
-  }
+}
+
+.card1 img {
+    max-width:100%;
+    max-height:100%;
+    padding: 2rem;
+}
+
+.cardtext {
+    color: white;
+    font-weight: 900;
+}
+
+.card2 {
+    background: linear-gradient(90deg, #752F8B -115.09%, #BC14B8 213.21%);
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.card2 img {
+    max-width:100%;
+    max-height:100%;
+    padding: 2rem;
+}
+
+.card3 {
+    background: linear-gradient(90deg, #752F8B -230.66%, #BC14B8 100%);
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+.card3 img {
+    max-width:100%;
+    max-height:100%;
+    padding: 2rem;
+}
   
   /* On mouse-over, add a deeper shadow */
 .card:hover {
@@ -38,6 +80,7 @@ body {
 
 .landingdesktop {
     width: 100%;
+    margin-top: -5vh;
 }
 
 .abtieeewie {
@@ -61,8 +104,10 @@ body {
 .container .cards .face.face1 {
     position: relative;
     display: flex;
-    background: linear-gradient(135deg, #4A0C59 4.2%, #CB42B5 100%);
+    /* background: linear-gradient(135deg, #4A0C59 4.2%, #CB42B5 100%); */
+    background: white;
     box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
+    border-style: solid;
     border-radius: 40px;
     justify-content: center;
     align-items: center;
@@ -221,8 +266,109 @@ body {
     height: 57.31px;
 }
 
+.cont9 {
+    margin-top: 10vh;
+}
+
+.blog-post{
+    width: 100%;
+    height: 100%;
+    max-width: 98rem;
+    padding: 5rem;
+    background-color: #ffffff;
+    box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 0.8rem ;
+}
+
+.blog-post__img{
+    /* min-width: 35rem;
+    max-width: 35rem;
+    height: 30rem; */
+    padding: 2rem;
+    width: 100rem;
+    transform: translateX(-8rem);
+    position: relative;
+}
+
+.blog-post__img img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    border-radius: .8rem;
+}
+
+.blog-post__img::before{
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right,rgba(250,1,196,0.8),rgba(75,15,99,0.8));
+    box-shadow: 0.5rem 0.5rem 0.3rem 1px rgba(0,0,0,0.05);
+    border-radius: 0.8rem;
+}
+
+/* .blog-post__img:hover::before {      // Old Anushree's code
+    opacity: 0; 
+} */
+
+.blog-post:hover .blog-post__img::before {      /*New code for opacity 0 on hover over entire card*/
+    opacity: 0;
+}
+
+
+.blog-post__date span{
+    display: block;
+    color: rgba(0,0,0,0.5);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+}
+
+.blog-post__title{
+    font-size: 1rem;
+    margin: 1.5rem 0 2rem;
+    text-transform: uppercase;
+    color: #4fac4f;
+}
+
+.blog-post__text{
+    text-align: justify;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    color:rgba(0,0,0,0.7);
+}
+
+.blog-post__cta{
+    display: inline-block;
+    padding: .5rem 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #fa01c4 0%, #4b0f63 100%);
+    border-radius: 0.8rem;
+    text-decoration: none;
+}
+
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-	
+	.blog-post{
+        padding: 2.5rem;
+        flex-direction: column;
+        max-width: 50vw;
+    }
+    .blog-post__img{
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0,-8rem);
+        /* min-width: 30rem; */
+        max-width: 50vw;
+    }
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
@@ -230,7 +376,18 @@ body {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-	
+	.blog-post{
+        padding: 2.5rem;
+        flex-direction: column;
+        max-width: 80rem;
+    }
+    .blog-post__img{
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0,-8rem);
+        min-width: 30rem;
+        max-width: 30rem;
+    }
 }
 
 

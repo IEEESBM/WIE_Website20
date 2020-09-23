@@ -120,11 +120,10 @@ body{
     .blog-post{
         max-width: 80rem;
     }
-}
-
-.blog-post__img{
-    min-width: 30rem;
-    max-width: 30rem;
+    .blog-post__img{
+        min-width: 30rem;
+        max-width: 30rem;
+    }
 }
 
 @media screen and(max-width:868px){
