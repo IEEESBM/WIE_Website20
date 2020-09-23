@@ -53,6 +53,57 @@ button.navbar-toggler {
  .carousel-indicators li{
 background-color: rgb(211, 20, 20);
 width:50px;}
+.blog-post{
+    width: 100%;
+    max-width: 98rem;
+    padding: 5rem;
+    background-color: #ffffff;
+    box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 0.8rem ;
+}
+.blog-post__title{
+    font-size: 2.5rem;
+    margin: 1.5rem 0 2rem;
+    text-transform: uppercase;
+    color: #4fac4f;
+}
+
+.blog-post__text{
+    margin-bottom: 3rem;
+    font-size: 1.4rem;
+    color:rgba(0,0,0,0.7);
+}
+.cont7 {
+    background-image: url('img/index/socialfooter.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* background-position-y: 4.5rem; */
+    height: 365.31px;
+}
+
+.cont8 {
+    background-image: url('img/index/footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* background-position-y: 4.5rem; */
+    height: 57.31px;
+}
+.video iframe{
+    position: realtive;
+    top: 0;
+    left: 0;
+    float:center;
+    text-align: center;
+    width: 100%;
+    height:100%;
+    box-sizing: border-box;
+    /*height: 100%;*/
+
+} 
 @media only screen and (max-device-width: 540px){
     .logo{
         background-color: whitesmoke;
