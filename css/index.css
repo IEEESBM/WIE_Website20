@@ -1,3 +1,7 @@
+* {
+    font-family: Roboto;
+}
+
 body {
     padding: 0px 0px 0px 0px;
     z-index: 0; 
@@ -5,6 +9,7 @@ body {
 
 .navbar {
     /* position: absolute; */
+    font-weight: 700;
     padding: 0rem;
 }
 
@@ -129,7 +134,8 @@ body {
 
 }
 .container .cards .face.face1 img {
-    max-width: 1000px;
+    max-width: 100%;
+    max-height: 100%;
 }
 .container .cards .face.face2 {
     position: relative;
@@ -148,6 +154,7 @@ body {
 .container .cards .face.face2 .content p {
     margin: 0;
     padding: 0;
+    text-align: justify;
     color: black;
 }
 .container .cards .face.face2 .content a {
