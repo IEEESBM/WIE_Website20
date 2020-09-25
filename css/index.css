@@ -175,7 +175,7 @@ body {
 .cont4 {
     background-image: url('../img/index/hist.svg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position-x: center;
     background-position-y: 0.5rem;
     height: 950px;
@@ -200,7 +200,7 @@ body {
 .cont6 {
     background-image: url('../img/index/regis.svg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position-x: center;
     background-position-y: 2.5rem;
     height: 950px;
