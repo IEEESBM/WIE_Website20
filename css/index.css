@@ -267,6 +267,16 @@ body {
     height: 365.31px;
 }
 
+#sbmlogo {
+    position: absolute;
+    top: 0;
+    bottom: 1;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 9em;
+}
+
 .contactusrow {
     /* color: #c159b8; */
     margin-bottom: -10rem;
@@ -280,15 +290,22 @@ body {
 
 .socialiconscol {
     /* margin-top: 5em; */
-    padding-left: 5em;
+    /* padding-left: 5em;
     padding-right: 5em;
     border-style: solid;
     border-width: 0 2.7px;
-    border-color: #f0d1f0;
+    border-color: #f0d1f0; */
 }
 
 .socialiconscol2 {
-    margin-top: 5vh;  
+    margin-top: 10vh; 
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; 
 }
 
 .socialiconscol a {
