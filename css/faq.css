@@ -383,3 +383,8 @@ html{
 .copyrightrow {
     margin-top: 1em;
 }
+
+#articleshead {
+    width: 50vw;
+    margin-top: 2em;
+}

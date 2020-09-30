@@ -2,7 +2,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 50) {
-          $(".navbar-dark").css("background" , "#BC14B8");
+          $(".navbar-dark").css("background" ,  "#F0D1F0");
         }
   
         else{

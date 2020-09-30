@@ -84,7 +84,7 @@ body {
     float: right;
 }
 .btn {
-   padding: 1rem 4rem;
+   padding: 1rem 1.5rem;
    background: pink !important;
    color: pink !important;
    border: 1px solid transparent;
@@ -92,7 +92,7 @@ body {
 }
 .btn:hover{
     color:  pink !important;
-    background: purple !important;
+    background: rgb(133, 47, 133) !important;
 }
 .content .main-content .post .read-more{
     position: absolute;
@@ -104,7 +104,7 @@ body {
     color: black !important; 
 }
 .content .main-content .post .read-more:hover{
-    background: rgb(228, 33, 228)  !important;
+    background: rgb(109, 35, 109)  !important;
     color: white !important;
     transition: .25s;
 }
@@ -267,4 +267,8 @@ padding: 50px;
 
 .copyrightrow {
     margin-top: 1em;
+}
+#articleshead {
+    width: 50vw;
+    margin-top: 2em;
 }
