@@ -61,16 +61,16 @@ body {
 }
    
 .content .main-content .recent-post-title{
-    margin: 40px;
-    width: fit-content;
+    margin: 50px auto 20px;
+    width: 70%;
     margin-bottom: 40px;
 }
 .content .main-content .post{
-    width: 95%;
-    height: 270px;
+    width: 80%;
+    height: 300px;
     margin: 20px auto;
     border-radius: 5px;
-    background: white;
+    background: whitesmoke;
     position: relative;
 }
 .content .main-content .post .post-image{
@@ -112,6 +112,7 @@ body {
 content: '';
 display: block;
 clear: both;
+padding: 50px;
 }
 .cont8 {
     background-image: url('../img/index/footer.svg');
@@ -160,4 +161,110 @@ clear: both;
     /*border: 5px solid red ;*/
     padding: 5px;
     margin: 0 auto;
+}
+.cont7 {
+    background-image: url('../img/index/socialfooter1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 7rem;
+    height: 365.31px;
+}
+
+#sbmlogo {
+    position: absolute;
+    top: 0;
+    bottom: 1;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 9em;
+}
+
+.contactusrow {
+    /* color: #c159b8; */
+    margin-bottom: -10rem;
+    font-size: 3rem;
+}
+
+.socialrow {
+    padding-top: 220px;
+    /* margin-top: 10rem; */
+}
+
+.socialiconscol {
+    /* margin-top: 5em; */
+    /* padding-left: 5em;
+    padding-right: 5em;
+    border-style: solid;
+    border-width: 0 2.7px;
+    border-color: #f0d1f0; */
+}
+
+.socialiconscol2 {
+    margin-top: 10vh; 
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; 
+}
+
+.socialiconscol a {
+    color: #f0d1f0;
+}
+
+.socialiconscol .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.socialiconscol .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+.socialiconscol #social-fb:hover {
+  color: #3B5998;
+}
+
+.socialiconscol #social-tw:hover {
+  color: #4099FF;
+}
+
+.socialiconscol #social-gp:hover {
+  color: #d34836;
+}
+
+.socialiconscol #social-em:hover {
+  color: #f39c12;
+}
+
+.socialiconscol #social-li:hover {
+    color: #f39c12;
+}
+
+.cont8 {
+    background-image: url('../img/index/footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* background-position-y: 4.5rem; */
+    height: 57.31px;
+}
+
+.copyrightrow {
+    margin-top: 1em;
 }
