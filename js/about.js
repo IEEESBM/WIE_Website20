@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll > 500) {
-          $(".navbar-dark").css("background" , "linear-gradient(135deg, #4A0C59 4.2%, #CB42B5 100%)");
+        if (scroll > 400) {
+          $(".navbar-dark").css("background" , "#F0D1F0");
         }
   
         else{
