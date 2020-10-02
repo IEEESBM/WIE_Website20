@@ -101,7 +101,7 @@ width:50px;}
 }
 
 .cont7 {
-    background-image: url('../img/index/socialfooter1.svg');
+    background-image: url('img/index/socialfooter1.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -195,7 +195,7 @@ width:50px;}
 }
 
 .cont8 {
-    background-image: url('../img/index/footer.svg');
+    background-image: url('img/index/footer.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
