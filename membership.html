@@ -13,27 +13,44 @@
     <title>Membership</title>
 </head>
 <body>
-    <img src="img/membership/membership3.png" class="float-right diag-card" alt="...">
-    <img src="img/nav/wielogo.png" width="150" height="150" class="float-left logo" alt="">
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">  <!--Add fixed-top class in this line for sticky navbar-->
+    <div class="container-fluid">
+        <!-- <span class="navbar-text">
+            <a role="button" id="loginButton">
+                <span class="fa fa-sign-in"> Login </span>
+            </a>
+        </span> -->
 
-    <nav class="navbar navbar-expand-sm navbr navbar-light">
-        <a class="navbar-brand mr-auto" href="#">
-            
-        </a>
-        <div class="">
-        <button class="navbar-toggler" type="button " data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <a class="nav-link active navii" href="#">Active</a>
-            <a class="nav-link navii" href="#">Link</a>
-            <a class="nav-link navii" href="#">Link</a>
-            <a class="nav-link navii" href="#">Disabled</a>
-        </div>
-        </div>
-    </nav>
-    <div id="demo" class="carousel slide" data-ride="carousel" style="padding: 1000px 0px 0px;">
+
+        <a class="navbar-brand mr-auto" href="#"><img src=./img/index/wielogo.png" height="50" width="50" alt=""></a>
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li> -->
+                <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">Events</a></li>
+                <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">FAQs</a></li>
+                <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">Membership</a></li>
+                <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">Achievements</a></li>
+            </ul>                
+        </div>                
+    </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row justify-content-center text-center">
+      <div class="col-12">
+          <img src="img/membership/membership1.svg" id="articleshead">
+      </div>
+  </div>
+</div>
+
+<img src="img/membership/registration.svg" id="membership1">
+
+    <div id="demo" class="carousel slide" data-ride="carousel" style="padding: 0px 0px 0px;">
         <!-- Indicators -->
         <ul class="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -57,8 +74,6 @@
       <br>
       <br>
       <br>
-
-       
       <div class="container-fluid cont6">
         <div class="row">
           <div class="col-sm-8" >
@@ -66,30 +81,13 @@
               <div class="blog-post__info">
                   <h1 class="blog-podt__title"  >HOW TO TAKE MEMBERSHIP</h1>
                   <div class=" blog-post__text" >
-                    <pre>
-
-
-
-
-
-
-
-
-
-
-                     <h1 style="text-align: center;">FLOWCHART</h1>
-
-
-
-
-
-
-
-
-
-
-
-                    </pre>
+                 <p>
+                     <!--<h1 style="text-align: center;">FLOWCHART</h1>-->
+                    <div class="container-fluid cont1"  >
+                     <img src="img/membership/Artboard 1.png" alt="Artboard">
+                     <button  class="text" type="button">JOIN US</button>
+                    </div>
+                    </p>
                   </div>
               </div>
           </div>
@@ -196,24 +194,63 @@ If you are interested in volunteering with IEEE WIE, the best place to get start
 </div>
 </div>
 <br><br> 
-      <div class="container-fluid cont7">
-        <div class="row">
-            dsgwwrb
-            dssd<br>
-            dssd<br>
-        </div>
-    </div>
+     
+<div class="container-fluid">
+  <div class="row justify-content-center text-center contactusrow">
+      <div class="col-12">
+          CONTACT US
+      </div>
+  </div>
+</div>
+<div class="container-fluid cont7">
+  <div class="row justify-content-center text-center socialrow">
+      <div class="col-4">
+          <a href="https://www.ieeemanipal.com" target="_blank"><img src="./img/index/ieeeLogo_white.png" id="sbmlogo"></a>
+      </div>
+      <div class="col-4 socialiconscol">
+          <div class="container-fluid">
+              <div class="row justify-content-center text-center socialiconscol2">
+                  <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                  <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-instagram fa-3x social"></i></a>
+                  <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
+                  <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                  <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="col-4">
+          <div class="container-fluid" style="margin-top: 1em;">
+              <div class="row justify-content-center text-center">
+                  <span style="color: white;">
+                      <i class="fa fa-mobile" aria-hidden="true"></i> 
+                      9917737075
+                  </span>
+              </div>
+              <div class="row justify-content-center text-center">
+                  <span style="color: white;">
+                      <i class="fa fa-envelope-o" aria-hidden="true"></i> 
+                      wie.ieeesbm@gmail.com
+                  </span>
+              </div>
+              <div class="row justify-content-center text-center">
+                  <span style="color: white;">
+                      <i class="fa fa-map-marker" aria-hidden="true"></i> 
+                      MIT, Manipal. Pin-248006
+                  </span>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 
 
-    <div class="container-fluid cont8">
-        <div class="row">
-            dsgwwrb
-            dssd<br>
-            dssd<br>
-        </div>
-    </div>
-
-
+<div class="container-fluid cont8">
+  <div class="row justify-content-center text-center">
+      <div class="col-12 copyrightrow">
+          <span style="color: white; padding-top: 2rem;"><i class="fa fa-copyright" aria-hidden="true"></i> 2020 IEEE Student Branch Manipal, All rights reserved.</span>
+      </div>
+  </div>
+</div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
