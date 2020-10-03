@@ -53,6 +53,17 @@ button.navbar-toggler {
     padding: 0px 0px 50px 40px;
 }
 
+.cont4 {
+     background-image: url('../img/about/purplebg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 0.5rem;
+    height: 867px; 
+}
+.carouselcont{
+    padding: 120px 0px 0px 0px;
+}
   .cont7 {
     background-image: url('../img/about/socialfooter1.svg');
     background-repeat: no-repeat;
