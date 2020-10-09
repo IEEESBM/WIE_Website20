@@ -38,7 +38,12 @@ button.navbar-toggler {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 20%;
-    margin: 10px 40px 10px 10px;
+    margin: 20px 40px 20px 10px;
+    border-radius: 0.7rem;
+  }
+  .card img{
+      border-top-left-radius: 0.7rem;
+      border-top-right-radius: 0.7rem;
   }
   
   .card:hover {
@@ -174,12 +179,15 @@ button.navbar-toggler {
     width: 100%;
     height: 100%;
     max-width: 98rem;
-    padding: 4rem;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 4rem;
     background-color: #ffffff;
     display: flex;
     box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
     align-items: center;
     border-radius: 0.8rem ;
+    margin-bottom: 4rem;
 }
 
 .blog-post__img{
@@ -211,23 +219,12 @@ button.navbar-toggler {
     border-radius: 0.8rem;
 }
 
-/* .blog-post__img:hover::before {      // Old Anushree's code
-    opacity: 0; 
-} */
-
 .blog-post:hover .blog-post__img::before {      /*New code for opacity 0 on hover over entire card*/
     opacity: 0;
 }
-
-
-.blog-post__date span{
-    display: block;
-    color: rgba(0,0,0,0.5);
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin: 0.2rem 0;
+.blog-post__info{
+    margin-left: -4rem;
 }
-
 .blog-post__title{
     font-size: 2.0rem;
     margin: 0.5rem 0 0.5rem;
