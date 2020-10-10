@@ -10,12 +10,13 @@ body {
 }
 
 .conthead {
-    margin-top: -7em;
+    margin-top: -25em;
 }
 
 #articleshead {
     width: 50vw;
-    margin-top: -10em;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 .accsection {
@@ -49,10 +50,10 @@ body {
     border-radius: 5px;
     overflow: hidden;
     font-family: 'Quicksand',sans-serif;
-    background: purple;
+    background: linear-gradient(to left, #BC14B8 0%, #752F8B 100%);
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width:100vw;
     min-height: 0px; 
     position: relative;
     /*height: 1500px;*/
@@ -69,7 +70,8 @@ align-items: center;
 {
     display: block;
     color: white ;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 1.5em;
     cursor: pointer;
     position: relative;
     transition: background 0.1s;
@@ -95,7 +97,7 @@ align-items: center;
 .accordion__content{
     background: white;
     line-height: 1.6;
-    font-size: 0.85em;
+    font-size: 1.5em;
     display: none;
     align-items: center;
     justify-content: center;
@@ -152,6 +154,30 @@ html{
     /* position: absolute; */
     padding: 0rem;
 }
+
+#articlebg1 {
+    z-index: -1;
+    height: 70vh;
+    transform: rotate(10deg);
+    position: absolute;
+    margin-top: 20em;
+    margin-left: -6em;
+    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+    filter:alpha(opacity=50); /* for <= IE 8 */
+}
+
+#articlebg2 {
+    z-index: -1;
+    height: 70vh;
+    transform: rotate(-10deg);
+    position: absolute;
+    margin-top: 45em;
+    right: -8em;
+    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+    filter:alpha(opacity=50); /* for <= IE 8 */
+}
+
+
 #accordion ul li:first-child div { 
     display:block;
     border-top:3px solid #FFCDCD;
@@ -173,7 +199,7 @@ html{
     color: violet;
     height: 50px;
     text-align: center !important;
-    position: absolute;
+    position: relative;
     bottom: 0px;
     left: 0px;
     padding-top: 20px;
@@ -209,7 +235,8 @@ html{
 }
 .footer .footer-content .about .contact span {
     display: block;
-    font-size: 1.1em;
+    font-size: 1.
+1em;
     margin-bottom: 8px;
 }
 .footer .footer-content .about .socials a {
@@ -291,6 +318,13 @@ html{
      color:  white !important;
      background: rgb(206, 111, 206);
  }
+
+ .col-12{
+    position: relative;
+    margin-top: 12rem;
+
+ }
+
  .cont7 {
     background-image: url('../img/index/socialfooter1.svg');
     background-repeat: no-repeat;
