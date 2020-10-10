@@ -13,10 +13,10 @@ body {
 }
 .card {
     /* Add shadows to create the "card" effect */
-    border: 1px solid #000000;
+    /*border: 0.5px solid #000000;*/
     box-sizing: border-box;
-    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    /*box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);*/
+    border-radius: 0.8rem;
     transition: 0.3s;
   }
 .date{
@@ -45,7 +45,13 @@ body {
 }
 .upcoming{
     margin-top:;
-    
+}
+.up{
+    background-image: linear-gradient(to right, #fa01c4 0%, #4b0f63 100%);
+    color: white;
+}
+.up:hover{
+    color: white;
 }
 .register{
     padding-left: 10px;
@@ -327,4 +333,13 @@ body {
 }
 .pin{
     margin-right: 5px;
+}
+#articlebg2 {
+    height: 40vh;
+    transform: rotate(0deg);
+    position: absolute;
+    margin-top: -17.5rem;
+    left: -9em;
+    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+    filter:alpha(opacity=50); /* for <= IE 8 */
 }
