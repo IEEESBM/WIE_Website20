@@ -8,8 +8,17 @@ body {
     z-index: 0; 
     /*background-color: rgb(212, 179, 202);*/
 }
-.navbar{
-    padding:0;
+.navbar {
+    /* position: absolute; */
+    font-weight: 700;
+    padding: 0rem;
+}
+
+.nav-item:hover {
+    transform: translate3d(2px,2px,2px);
+    font-size: xx-large;
+    /* text-shadow: 0.5px 0.5px 0.5px #acacac; */
+    text-decoration: underline;
 }
 .card {
     /* Add shadows to create the "card" effect */
@@ -19,9 +28,37 @@ body {
     border-radius: 0.8rem;
     transition: 0.3s;
   }
-.date{
+  .date{
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 600;
+   }
 
+   
+#articlebg1 {
+    z-index: -1;
+    height: 70vh;
+    transform: rotate(10deg);
+    position: absolute;
+    margin-top: -2em;
+    margin-left: -8em;
+    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+    filter:alpha(opacity=50); /* for <= IE 8 */
 }
+
+#articlebg2 {
+    z-index: -1;
+    height: 70vh;
+    transform: rotate(-10deg);
+    position: absolute;
+    margin-top: 25em;
+    right: -9em;
+    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+    filter:alpha(opacity=50); /* for <= IE 8 */
+}
+
+
+
 .event-illus
 {
     margin-top: -2rem;
@@ -78,6 +115,11 @@ body {
     display: flex;
     align-items: center;
     border-radius: 0.8rem ;
+}
+
+.card-events{
+    width: 100%;
+    height: 100%;
 }
 
 .blog-post__img{
@@ -333,13 +375,4 @@ body {
 }
 .pin{
     margin-right: 5px;
-}
-#articlebg2 {
-    height: 40vh;
-    transform: rotate(0deg);
-    position: absolute;
-    margin-top: -17.5rem;
-    left: -9em;
-    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
-    filter:alpha(opacity=50); /* for <= IE 8 */
 }

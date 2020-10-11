@@ -152,9 +152,9 @@ html{
 }
 .navbar {
     /* position: absolute; */
+    font-weight: 700;
     padding: 0rem;
 }
-
 
 .nav-item:hover {
     transform: translate3d(2px,2px,2px);
