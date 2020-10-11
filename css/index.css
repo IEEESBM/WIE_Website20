@@ -13,6 +13,13 @@ body {
     padding: 0rem;
 }
 
+.nav-item:hover {
+    transform: translate3d(2px,2px,2px);
+    font-size: xx-large;
+    /* text-shadow: 0.5px 0.5px 0.5px #acacac; */
+    text-decoration: underline;
+}
+
 
 .contcards {
     margin-top: 2vh;
@@ -27,8 +34,8 @@ body {
     border: 1px solid #000000;
     box-sizing: border-box;
     transition: 0.3s;
-    width: 318px;
-    height: 357px;
+    width: 270px;
+    height: 300px;
 }
 
 .card1 {
@@ -90,7 +97,7 @@ body {
 
 .abtieeewie {
     margin-top: 5rem;
-    margin-bottom: -3.5rem;
+    margin-bottom: -5.5rem;
     font-size: 3rem;
 }
 
@@ -333,23 +340,23 @@ body {
 */
 
 .socialiconscol #social-fb:hover {
-  color: #3B5998;
+  color: #dfb6ff;
 }
 
 .socialiconscol #social-tw:hover {
-  color: #4099FF;
+  color: #dfb6ff;
 }
 
 .socialiconscol #social-gp:hover {
-  color: #d34836;
+  color: #dfb6ff;
 }
 
 .socialiconscol #social-em:hover {
-  color: #f39c12;
+  color: #dfb6ff;
 }
 
 .socialiconscol #social-li:hover {
-    color: #f39c12;
+    color: #dfb6ff;
 }
 
 .cont8 {
