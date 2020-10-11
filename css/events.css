@@ -44,7 +44,7 @@ body {
     height: auto;
 }
 .upcoming{
-    margin-top:;
+    margin-top: -4.5em;
 }
 .up{
     background-image: linear-gradient(to right, #fa01c4 0%, #4b0f63 100%);
@@ -329,7 +329,7 @@ body {
   }
   #articleshead {
     width: 50vw;
-    margin-top: 2em;
+    margin-top: 0em;
 }
 .pin{
     margin-right: 5px;
