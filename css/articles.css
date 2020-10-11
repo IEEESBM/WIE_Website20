@@ -49,10 +49,10 @@ button.navbar-toggler {
 
 #articlebg1 {
     z-index: -1;
-    height: 70vh;
+    height: 60vh;
     transform: rotate(10deg);
     position: absolute;
-    margin-top: 10em;
+    margin-top: 1em;
     margin-left: -8em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
@@ -60,11 +60,22 @@ button.navbar-toggler {
 
 #articlebg2 {
     z-index: -1;
-    height: 70vh;
+    height: 60vh;
     transform: rotate(-10deg);
     position: absolute;
-    margin-top: 45em;
+    margin-top: 30em;
     right: -9em;
+    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+    filter:alpha(opacity=50); /* for <= IE 8 */
+}
+
+#articlebg3 {
+    z-index: -1;
+    height: 60vh;
+    transform: rotate(10deg);
+    position: absolute;
+    margin-top: 60em;
+    margin-left: -8em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
 }
