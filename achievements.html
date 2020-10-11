@@ -1,432 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" integrity="sha512-sopmFEmRVsWt542K+yzH3FQ1KJfdosOJG+bGLs9ZJT07b/3gUxRA9ICuJg2JtoZ9WeknAUuwJ0ggnmrV1YL6kQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css"
+        integrity="sha512-sopmFEmRVsWt542K+yzH3FQ1KJfdosOJG+bGLs9ZJT07b/3gUxRA9ICuJg2JtoZ9WeknAUuwJ0ggnmrV1YL6kQ=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/achievements.css">
 
     <title>Document</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">  <!--Add fixed-top class in this line for sticky navbar-->
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <!--Add fixed-top class in this line for sticky navbar-->
         <div class="container-fluid">
             <!-- <span class="navbar-text">
                 <a role="button" id="loginButton">
                     <span class="fa fa-sign-in"> Login </span>
                 </a>
             </span> -->
-    
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-  
-            <a class="navbar-brand mr-auto" href="#"><img src="./img/index/wielogo.png" height="50" width="50" alt=""></a>
+
+            <a class="navbar-brand mr-auto" href="#"><img src="./img/index/wielogo.png" height="50" width="50"
+                    alt=""></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto">
                     <!-- <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li> -->
-                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">Events</a></li>
-                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">FAQs</a></li>
-                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">Membership</a></li>
-                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">Achievements</a></li>
-                </ul>                
-            </div>                
+                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link"
+                            href="#">Events</a></li>
+                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="#">FAQs</a>
+                    </li>
+                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link"
+                            href="#">Membership</a></li>
+                    <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link"
+                            href="#">Achievements</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <svg width="1402" height="738" viewBox="0 0 1402 738" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g opacity="0.5">
-        <path d="M640.044 92.25H97.9558C66.8774 92.25 41.6833 117.444 41.6833 148.522V582.644C41.6833 613.723 66.8774 638.917 97.9558 638.917H640.044C671.123 638.917 696.317 613.723 696.317 582.644V148.522C696.317 117.444 671.123 92.25 640.044 92.25Z" fill="#EFDFFF"/>
-        <path d="M126.061 302.819L77.0117 321.864L60.393 360.718L63.222 401.67L83.6947 436.267L102.056 447.57L107.7 478.634L135.238 486.403L162.777 478.634V452.51L193.137 431.327L217.109 384.423L206.551 347.304L180.496 310.554L126.061 302.819Z" fill="#EFDFFF"/>
-        <path opacity="0.42" d="M134.535 296.471L135.239 486.403L102.056 482.167V453.214L62.9555 412.112L60.393 370.326L71.8525 333.925L107.372 310.076L134.535 296.471Z" fill="#D7B7FF"/>
-        <path d="M268.96 203.859H250.906V225.527H268.96V203.859Z" fill="#D7B7FF"/>
-        <path d="M364.06 384.423H336.371V439.793H364.06V384.423Z" fill="url(#paint0_linear)"/>
-        <path d="M363.13 341.093H339.712C331.221 341.093 324.337 347.976 324.337 356.468V379.886C324.337 388.377 331.221 395.26 339.712 395.26H363.13C371.622 395.26 378.505 388.377 378.505 379.886V356.468C378.505 347.976 371.622 341.093 363.13 341.093Z" fill="url(#paint1_linear)"/>
-        <path d="M362.871 155.711H341.175C302.624 155.711 271.372 186.963 271.372 225.514V294.161C271.372 332.712 302.624 363.964 341.175 363.964H362.871C401.421 363.964 432.673 332.712 432.673 294.161V225.514C432.673 186.963 401.421 155.711 362.871 155.711Z" fill="url(#paint2_linear)"/>
-        <path d="M448.321 205.068H430.268V226.737H448.321V205.068Z" fill="#D7B7FF"/>
-        <path d="M406.194 491.563H295.446C295.446 471.616 324.337 454.246 339.986 453.036H361.654C378.505 454.246 406.194 471.616 406.194 491.563Z" fill="url(#paint3_linear)"/>
-        <path d="M450.733 140.063H250.906V167.752H450.733V140.063Z" fill="url(#paint4_linear)"/>
-        <path d="M439.896 155.711H259.332V232.75H439.896V155.711Z" fill="url(#paint5_linear)"/>
-        <path d="M439.896 167.752H259.332V174.974H439.896V167.752Z" fill="#D7B7FF"/>
-        <path d="M473.605 543.318H228.035V592.676H473.605V543.318Z" fill="#D7B7FF"/>
-        <path d="M380.91 436.185H320.723V459.056H380.91V436.185Z" fill="url(#paint6_linear)"/>
-        <path d="M437.491 491.563H264.149V525.265H437.491V491.563Z" fill="url(#paint7_linear)"/>
-        <path d="M479.618 519.245H220.812V545.73H479.618V519.245Z" fill="url(#paint8_linear)"/>
-        <path d="M232.654 225.5C239.064 220.662 238.558 204.317 230.078 194.21C225.063 188.245 216.207 183.202 207.159 184.705C192.461 187.138 184.281 205.683 184.5 218.53C184.753 236.215 209.278 249.123 232.88 262.817C233.919 263.411 235.975 264.593 238.921 266.391C247.66 271.741 257.835 278.007 266.712 286.713C271.577 291.496 276.19 296.034 280.044 303.496C281.943 307.172 290.628 323.996 283.85 340.792C283.358 342.015 279.627 350.926 270.696 356.509C268.147 358.101 265.277 359.836 262.277 358.962C257.808 357.67 254.883 351.233 256.154 345.767C257.077 341.742 260.336 341.332 263.336 337.3C268.222 330.74 267.211 322.267 266.848 319.226C265.366 306.748 254.378 298.726 242.624 290.464C228.452 280.46 225.151 282.428 207.617 271.386C195.577 263.808 188.135 259.12 181.015 249.861C177.366 245.077 168.606 233.386 167.601 216.227C167.253 210.316 166.528 197.982 174.66 186.092C183.01 173.895 195.262 170.109 198.652 169.111C202.308 168.045 219.459 163.528 234.786 173.737C246.014 181.254 249.895 192.358 251.767 197.722C253.298 202.109 256.031 210.275 254.296 220.58C253.674 224.256 251.378 237.889 239.946 244.736C237.513 246.198 228.855 251.391 221.906 247.237C215.072 243.137 213.207 232.053 216.986 228.001C220.764 223.949 227.55 229.32 232.654 225.5Z" fill="url(#paint9_linear)"/>
-        <path d="M467.4 226.99C460.99 222.159 461.496 205.806 469.976 195.707C474.992 189.734 483.848 184.691 492.895 186.195C507.594 188.634 515.773 207.146 515.589 220.02C515.336 237.704 490.811 250.613 467.209 264.307C466.17 264.908 464.113 266.083 461.168 267.887C452.428 273.238 442.253 279.463 433.377 288.203C428.512 292.986 423.899 297.523 420.045 304.985C418.145 308.669 409.46 325.485 416.239 342.282C416.731 343.505 420.462 352.422 429.393 357.998C431.942 359.591 434.812 361.326 437.812 360.452C442.253 359.16 445.144 352.689 443.9 347.243C442.978 343.218 439.718 342.808 436.718 338.776C431.833 332.216 432.844 323.743 433.206 320.702C434.689 308.224 445.684 300.236 457.43 291.941C471.609 281.937 474.903 283.911 492.444 272.862C504.478 265.284 511.919 260.596 519.04 251.337C522.695 246.554 531.449 234.862 532.453 217.703C532.802 211.799 533.526 199.458 525.395 187.568C517.044 175.371 504.792 171.585 501.403 170.587C497.747 169.521 480.595 165.005 465.268 175.214C454.041 182.696 450.16 193.834 448.287 199.199C446.757 203.586 444.023 211.751 445.759 222.063C446.381 225.732 448.677 239.365 460.109 246.212C462.542 247.674 471.199 252.874 478.149 248.713C484.982 244.613 486.848 233.529 483.069 229.477C479.29 225.425 472.498 230.81 467.4 226.99Z" fill="url(#paint10_linear)"/>
-        <path d="M160.741 494.993L108.964 495.109C107.996 495.067 107.029 495.221 106.121 495.563C105.214 495.904 104.385 496.426 103.685 497.096C102.984 497.767 102.427 498.572 102.046 499.464C101.666 500.355 101.469 501.315 101.469 502.284C101.469 503.254 101.666 504.213 102.046 505.105C102.427 505.996 102.984 506.802 103.685 507.472C104.385 508.142 105.214 508.664 106.121 509.006C107.029 509.347 107.996 509.501 108.964 509.459L160.741 509.343C162.589 509.262 164.336 508.471 165.615 507.134C166.895 505.798 167.609 504.019 167.609 502.168C167.609 500.317 166.895 498.538 165.615 497.202C164.336 495.865 162.589 495.074 160.741 494.993Z" fill="url(#paint11_linear)"/>
-        <path d="M159.64 512.384L107.864 512.493C106.896 512.451 105.928 512.605 105.021 512.947C104.114 513.288 103.285 513.81 102.585 514.48C101.884 515.151 101.327 515.956 100.946 516.848C100.565 517.739 100.369 518.699 100.369 519.668C100.369 520.638 100.565 521.597 100.946 522.489C101.327 523.38 101.884 524.186 102.585 524.856C103.285 525.526 104.114 526.048 105.021 526.39C105.928 526.731 106.896 526.885 107.864 526.843L159.64 526.734C161.489 526.653 163.235 525.862 164.515 524.525C165.795 523.188 166.509 521.409 166.509 519.559C166.509 517.708 165.795 515.929 164.515 514.593C163.235 513.256 161.489 512.465 159.64 512.384Z" fill="url(#paint12_linear)"/>
-        <path d="M121.763 545.853L148.16 545.792C150.048 545.792 151.917 545.42 153.66 544.696C155.403 543.973 156.986 542.913 158.319 541.577C159.652 540.241 160.709 538.655 161.428 536.91C162.147 535.165 162.515 533.295 162.51 531.408L107.4 531.524C107.405 535.329 108.921 538.975 111.615 541.663C114.308 544.35 117.959 545.857 121.763 545.853Z" fill="url(#paint13_linear)"/>
-        <path d="M134.418 296.656C115.447 296.729 97.078 303.324 82.3925 315.335C67.707 327.346 57.5986 344.041 53.7628 362.621C49.927 381.2 52.5972 400.534 61.3255 417.379C70.0538 434.223 84.3092 447.554 101.7 455.134L101.755 480.417C101.757 481.629 101.997 482.827 102.463 483.946C102.928 485.064 103.609 486.079 104.467 486.934C105.325 487.789 106.343 488.466 107.463 488.927C108.583 489.389 109.783 489.625 110.994 489.622L158.684 489.519C159.895 489.517 161.093 489.275 162.211 488.809C163.329 488.343 164.344 487.661 165.198 486.803C166.052 485.944 166.729 484.925 167.189 483.805C167.65 482.685 167.885 481.485 167.881 480.274L167.827 454.991C185.185 447.335 199.383 433.942 208.038 417.06C216.693 400.177 219.279 380.832 215.362 362.269C211.445 343.706 201.264 327.054 186.526 315.108C171.788 303.161 153.39 296.646 134.418 296.656ZM159.107 447.925L159.155 470.297C159.155 474.807 156.155 478.497 152.431 478.497L117.581 478.572C113.857 478.572 110.83 474.93 110.823 470.42L110.775 448.048C89.4141 436.787 63.0375 409.508 62.9418 379.489C62.853 339.049 101.208 307.739 134.617 307.691C168.025 307.644 206.141 338.742 206.23 379.175C206.305 409.18 180.4 436.575 159.107 447.925Z" fill="url(#paint14_linear)"/>
-        <path d="M550.357 419.293L496.38 538.446L532.583 516.06L539.826 553.582L593.803 444.31L550.357 419.293Z" fill="url(#paint15_linear)"/>
-        <path d="M624.081 420.749L678.058 539.902L641.855 517.522L634.612 555.044L580.635 445.766L624.081 420.749Z" fill="url(#paint16_linear)"/>
-        <path d="M593.475 481.832C643.102 481.832 683.333 441.601 683.333 391.974C683.333 342.346 643.102 302.115 593.475 302.115C543.848 302.115 503.617 342.346 503.617 391.974C503.617 441.601 543.848 481.832 593.475 481.832Z" fill="url(#paint17_linear)"/>
-        <path d="M593.728 464.407C633.09 464.407 664.999 432.498 664.999 393.135C664.999 353.773 633.09 321.864 593.728 321.864C554.366 321.864 522.456 353.773 522.456 393.135C522.456 432.498 554.366 464.407 593.728 464.407Z" fill="url(#paint18_linear)" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
-        <path opacity="0.37" d="M629.2 444.665L592.525 426.427L556.705 446.299L562.718 405.784L532.754 377.856L573.146 371.057L590.441 333.924L609.39 370.244L650.048 375.218L621.369 404.465L629.2 444.665Z" fill="url(#paint19_linear)"/>
-        </g>
-        <path d="M358.727 394.027H320.201L312.877 416H289.513L329.21 309.359H349.571L389.488 416H366.124L358.727 394.027ZM326.134 376.229H352.794L339.391 336.312L326.134 376.229ZM481.554 380.478C480.724 391.952 476.476 400.985 468.81 407.577C461.192 414.169 451.134 417.465 438.634 417.465C424.962 417.465 414.195 412.875 406.334 403.695C398.521 394.467 394.615 381.82 394.615 365.756V359.237C394.615 348.983 396.422 339.95 400.035 332.138C403.648 324.325 408.8 318.344 415.489 314.193C422.228 309.994 430.04 307.895 438.927 307.895C451.231 307.895 461.144 311.19 468.663 317.782C476.183 324.374 480.528 333.627 481.7 345.541H459.728C459.19 338.656 457.262 333.676 453.941 330.6C450.67 327.475 445.665 325.912 438.927 325.912C431.603 325.912 426.109 328.549 422.447 333.822C418.834 339.047 416.979 347.177 416.881 358.212V366.269C416.881 377.792 418.614 386.215 422.081 391.537C425.597 396.859 431.114 399.521 438.634 399.521C445.421 399.521 450.475 397.982 453.795 394.906C457.164 391.781 459.093 386.972 459.581 380.478H481.554ZM582.774 416H560.802V370.297H517.955V416H495.982V309.359H517.955V352.572H560.802V309.359H582.774V416ZM625.401 416H603.429V309.359H625.401V416ZM709.996 369.784H667.809V398.349H717.32V416H645.836V309.359H717.174V327.157H667.809V352.572H709.996V369.784ZM769.615 389.56L793.785 309.359H818.248L781.114 416H758.189L721.202 309.359H745.592L769.615 389.56ZM892.516 369.784H850.328V398.349H899.84V416H828.355V309.359L899.693 309.359V327.157L850.328 327.157V352.572H892.516V369.784ZM941.441 309.359L968.834 386.703L996.08 309.359H1024.94V416H1002.89V386.85L1005.09 336.532L976.305 416H961.217L932.506 336.605L934.703 386.85V416H912.73V309.359H941.441ZM1108.29 369.784H1066.1V398.349H1115.61V416L1044.13 416V309.359H1115.46V327.157H1066.1V352.572H1108.29V369.784ZM1215.22 416H1193.25L1150.47 345.834V416H1128.5V309.359H1150.47L1193.32 379.672V309.359H1215.22V416ZM1312.49 327.157H1279.82V416H1257.85V327.157H1225.62V309.359H1312.49V327.157ZM1379.21 388.021C1379.21 383.871 1377.75 380.697 1374.82 378.5C1371.89 376.254 1366.61 373.91 1359 371.469C1351.38 368.979 1345.35 366.537 1340.9 364.145C1328.79 357.602 1322.74 348.788 1322.74 337.704C1322.74 331.942 1324.35 326.815 1327.57 322.323C1330.85 317.782 1335.51 314.242 1341.56 311.703C1347.67 309.164 1354.5 307.895 1362.07 307.895C1369.69 307.895 1376.48 309.286 1382.43 312.069C1388.39 314.804 1393 318.686 1396.28 323.715C1399.6 328.744 1401.26 334.457 1401.26 340.854H1379.28C1379.28 335.971 1377.75 332.187 1374.67 329.501C1371.59 326.767 1367.27 325.399 1361.71 325.399C1356.33 325.399 1352.16 326.547 1349.18 328.842C1346.2 331.088 1344.71 334.066 1344.71 337.777C1344.71 341.244 1346.45 344.149 1349.91 346.493C1353.43 348.837 1358.58 351.034 1365.37 353.085C1377.87 356.845 1386.97 361.508 1392.69 367.074C1398.4 372.641 1401.26 379.574 1401.26 387.875C1401.26 397.104 1397.76 404.354 1390.78 409.628C1383.8 414.853 1374.4 417.465 1362.58 417.465C1354.38 417.465 1346.91 415.976 1340.17 412.997C1333.43 409.97 1328.28 405.844 1324.72 400.619C1321.2 395.395 1319.44 389.34 1319.44 382.455H1341.49C1341.49 394.223 1348.52 400.106 1362.58 400.106C1367.81 400.106 1371.89 399.057 1374.82 396.957C1377.75 394.809 1379.21 391.83 1379.21 388.021Z" fill="white"/>
-        <path d="M358.727 394.027H320.201L312.877 416H289.513L329.21 309.359H349.571L389.488 416H366.124L358.727 394.027ZM326.134 376.229H352.794L339.391 336.312L326.134 376.229ZM481.554 380.478C480.724 391.952 476.476 400.985 468.81 407.577C461.192 414.169 451.134 417.465 438.634 417.465C424.962 417.465 414.195 412.875 406.334 403.695C398.521 394.467 394.615 381.82 394.615 365.756V359.237C394.615 348.983 396.422 339.95 400.035 332.138C403.648 324.325 408.8 318.344 415.489 314.193C422.228 309.994 430.04 307.895 438.927 307.895C451.231 307.895 461.144 311.19 468.663 317.782C476.183 324.374 480.528 333.627 481.7 345.541H459.728C459.19 338.656 457.262 333.676 453.941 330.6C450.67 327.475 445.665 325.912 438.927 325.912C431.603 325.912 426.109 328.549 422.447 333.822C418.834 339.047 416.979 347.177 416.881 358.212V366.269C416.881 377.792 418.614 386.215 422.081 391.537C425.597 396.859 431.114 399.521 438.634 399.521C445.421 399.521 450.475 397.982 453.795 394.906C457.164 391.781 459.093 386.972 459.581 380.478H481.554ZM582.774 416H560.802V370.297H517.955V416H495.982V309.359H517.955V352.572H560.802V309.359H582.774V416ZM625.401 416H603.429V309.359H625.401V416ZM709.996 369.784H667.809V398.349H717.32V416H645.836V309.359H717.174V327.157H667.809V352.572H709.996V369.784ZM769.615 389.56L793.785 309.359H818.248L781.114 416H758.189L721.202 309.359H745.592L769.615 389.56ZM892.516 369.784H850.328V398.349H899.84V416H828.355V309.359L899.693 309.359V327.157L850.328 327.157V352.572H892.516V369.784ZM941.441 309.359L968.834 386.703L996.08 309.359H1024.94V416H1002.89V386.85L1005.09 336.532L976.305 416H961.217L932.506 336.605L934.703 386.85V416H912.73V309.359H941.441ZM1108.29 369.784H1066.1V398.349H1115.61V416L1044.13 416V309.359H1115.46V327.157H1066.1V352.572H1108.29V369.784ZM1215.22 416H1193.25L1150.47 345.834V416H1128.5V309.359H1150.47L1193.32 379.672V309.359H1215.22V416ZM1312.49 327.157H1279.82V416H1257.85V327.157H1225.62V309.359H1312.49V327.157ZM1379.21 388.021C1379.21 383.871 1377.75 380.697 1374.82 378.5C1371.89 376.254 1366.61 373.91 1359 371.469C1351.38 368.979 1345.35 366.537 1340.9 364.145C1328.79 357.602 1322.74 348.788 1322.74 337.704C1322.74 331.942 1324.35 326.815 1327.57 322.323C1330.85 317.782 1335.51 314.242 1341.56 311.703C1347.67 309.164 1354.5 307.895 1362.07 307.895C1369.69 307.895 1376.48 309.286 1382.43 312.069C1388.39 314.804 1393 318.686 1396.28 323.715C1399.6 328.744 1401.26 334.457 1401.26 340.854H1379.28C1379.28 335.971 1377.75 332.187 1374.67 329.501C1371.59 326.767 1367.27 325.399 1361.71 325.399C1356.33 325.399 1352.16 326.547 1349.18 328.842C1346.2 331.088 1344.71 334.066 1344.71 337.777C1344.71 341.244 1346.45 344.149 1349.91 346.493C1353.43 348.837 1358.58 351.034 1365.37 353.085C1377.87 356.845 1386.97 361.508 1392.69 367.074C1398.4 372.641 1401.26 379.574 1401.26 387.875C1401.26 397.104 1397.76 404.354 1390.78 409.628C1383.8 414.853 1374.4 417.465 1362.58 417.465C1354.38 417.465 1346.91 415.976 1340.17 412.997C1333.43 409.97 1328.28 405.844 1324.72 400.619C1321.2 395.395 1319.44 389.34 1319.44 382.455H1341.49C1341.49 394.223 1348.52 400.106 1362.58 400.106C1367.81 400.106 1371.89 399.057 1374.82 396.957C1377.75 394.809 1379.21 391.83 1379.21 388.021Z" fill="url(#paint20_linear)"/>
-        <defs>
-        <linearGradient id="paint0_linear" x1="336.371" y1="412.112" x2="364.06" y2="412.112" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#C7AEF7"/>
-        <stop offset="0.47" stop-color="#C8ABF8"/>
-        <stop offset="0.81" stop-color="#CAA2FC"/>
-        <stop offset="1" stop-color="#CC99FF"/>
-        </linearGradient>
-        <linearGradient id="paint1_linear" x1="324.337" y1="368.173" x2="378.505" y2="368.173" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint2_linear" x1="64328.8" y1="79343.8" x2="102404" y2="79343.8" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#C7AEF7"/>
-        <stop offset="0.47" stop-color="#C8ABF8"/>
-        <stop offset="0.81" stop-color="#CAA2FC"/>
-        <stop offset="1" stop-color="#CC99FF"/>
-        </linearGradient>
-        <linearGradient id="paint3_linear" x1="48178.4" y1="27081.3" x2="66127.3" y2="27081.3" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#C7AEF7"/>
-        <stop offset="0.47" stop-color="#C8ABF8"/>
-        <stop offset="0.81" stop-color="#CAA2FC"/>
-        <stop offset="1" stop-color="#CC99FF"/>
-        </linearGradient>
-        <linearGradient id="paint4_linear" x1="73623.4" y1="6376.38" x2="132059" y2="6376.38" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint5_linear" x1="68785.2" y1="22053.3" x2="116497" y2="22053.3" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint6_linear" x1="28569.9" y1="15418.2" x2="33871.3" y2="15418.2" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint7_linear" x1="67270.9" y1="25566.5" x2="111242" y2="25566.5" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint8_linear" x1="83851.3" y1="21158.4" x2="181871" y2="21158.4" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#C7AEF7"/>
-        <stop offset="0.47" stop-color="#C8ABF8"/>
-        <stop offset="0.81" stop-color="#CAA2FC"/>
-        <stop offset="1" stop-color="#CC99FF"/>
-        </linearGradient>
-        <linearGradient id="paint9_linear" x1="29827.3" y1="73822.6" x2="50431.4" y2="73714.7" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint10_linear" x1="-70975.8" y1="74044.7" x2="-91575.5" y2="73838.7" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint11_linear" x1="9954.32" y1="11132.2" x2="16355.3" y2="11132.2" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint12_linear" x1="9846.73" y1="11512.6" x2="16247.7" y2="11512.6" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint13_linear" x1="8766.97" y1="11918" x2="13211.7" y2="11918" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint14_linear" x1="51.9333" y1="393.122" x2="217.266" y2="393.122" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.19" stop-color="#BDA4EF"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint15_linear" x1="71265.3" y1="96014" x2="85154.9" y2="96014" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint16_linear" x1="-171683" y1="96307.7" x2="-185573" y2="96307.7" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint17_linear" x1="132955" y1="103391" x2="180220" y2="103391" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.2" stop-color="#BCA3EE"/>
-        <stop offset="0.46" stop-color="#A990DE"/>
-        <stop offset="0.73" stop-color="#9D84D4"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint18_linear" x1="109507" y1="82329.9" x2="139240" y2="82329.9" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#C7AEF7"/>
-        <stop offset="0.47" stop-color="#C8ABF8"/>
-        <stop offset="0.81" stop-color="#CAA2FC"/>
-        <stop offset="1" stop-color="#CC99FF"/>
-        </linearGradient>
-        <linearGradient id="paint19_linear" x1="591.405" y1="446.299" x2="591.405" y2="333.924" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#D0B7FF"/>
-        <stop offset="0.08" stop-color="#BEA5F0"/>
-        <stop offset="0.18" stop-color="#AD94E2"/>
-        <stop offset="0.31" stop-color="#A289D8"/>
-        <stop offset="0.49" stop-color="#9B82D3"/>
-        <stop offset="1" stop-color="#9980D1"/>
-        </linearGradient>
-        <linearGradient id="paint20_linear" x1="453.285" y1="406" x2="1378.19" y2="406" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#BC14B8"/>
-        <stop offset="1" stop-color="#772F8C"/>
-        </linearGradient>
-        </defs>
-        </svg>
-        
-        
 
-    <!--
+    <div class="container-fluid">
+        <div class="row justify-content-center text-center">
+            <div class="col-12">
+                <img src="img/achievements/achievents.svg" id="achievmenthead">
+            </div>
+        </div>
+      </div>
+      <img src="img/achievements/achievementsbg-01.svg" id="bg1">
+            <img src="img/achievements/achievementsbg-01.svg" id="bg2">
     <div class="container cont1">
-        <div class="row justify-content-center cardrow">
-            <div class="col-8  " style="overflow: hidden">
-                <div class="card">
-                    <img src="https://picsum.photos/1600/900" class="img-rounded" alt="Achievements Picture" style="width:auto;height:auto;">
-                </div>
-            </div> 
-            <div class="col-4 ">
-                <div class="cardabout">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quod. Quidem doloremque quisquam, repudiandae perferendis id natus. Nobis, consequuntur cupiditate, quis aliquam iusto, facere a temporibus molestiae corrupti ratione fugiat.</div>
-            </div>  
+        <div class="row justify-content-center text-center project ">
+            <div class="col-12">
+                OUR PROJECTS
+            </div>
         </div>
     </div>
-    <br/>
--->
+    <!-- <div class="container cont2">
+            <div class="row justify-content-center cardrow">
+                <div class="col-12  " style="overflow: hidden">
+                    <div class="card"> -->
     <div class="container cont2">
-        <div class="row justify-content-center text-center abtieeewie">
-            <div class="col-6">
-                <h1>OUR PROJECTS</h1> 
-            </div>
-        </div>
-    </div>
-    <div class="container cont1">
-        <div class="row justify-content-center cardrow">
-            <div class="col-12  " style="overflow: hidden">
-                <div class="card">
-                    <div class="projectheadtext" >
-                    <h2><strong>WIE WEBSITE</strong></h2>
-                   </div>
-                   <div class="project_text">
-                     <p>
-                        The team of the WIE Affinity Group of IEEE Student Branch Manipal undertook the project of designing a website for WIE IEEE- SBM in the month of September
-                        The team consisted of a total of 10 members who worked under the guidance of 4 board members from IEEE SBM.
-                        The website was designed using CSS, Html and JavaScript.
-                        The webdev team had 8 members.
-                        They learned the different aspects ie graphics and web development from scratch and ultimately delivered great results.
-                        Each of them took up the task of designing the different pages.<br>
-                        
-                        There was also a dedicated team for content who provided the articles for the WIE blog and other content material for the different pages of the website.
-                        It was a great learning opportunity for all the members as they got to learn and build on the skills of website development and team work.<br>
-                        
-                        We would like to thank the webmaster, Abhishek Srivastav and graphics head, Ashish Sharma of IEEE SBM for their guidance and support in this project and the Chairperson and Vice Chairperson of WIE Affinty Group Navya Ambardar and Prita Saha for taking the initiative.
-                     </p>  
-                   </div>>
-            </div> 
-        </div>
-    </div>
-    </div>
-</br>
-</br>
-    <div class="container cont3">
-        <div class="row justify-content-center text-center">
-            <div class="col-12 col-sm-6 d-flex justify-content-center">
+        <div class="row justify-content-center">
+            <div class="col-12  d-flex justify-content-center">
                 <div class="cards">
-                    <div class="face face1">
-                       <div class="content">
-                          <ul>
-                              <li> Anushree Bhat ( IEEE Mancomm member)</li> 
-                              <li> Ishika Agarwal ( IEEE Mancomm member)</li> 
-                              <li> Harsh Mishra ( IEEE Mancomm member)</li>
-                              <li> Sara Dharmik ( IEEE Mancomm member)</li> 
-                              <li> Sanjana Bharadwaj ( IEEE Mancomm member)</li>
-                              <li> Dristi Biyani ( IEEE Mancomm member)</li> 
-                              <li> Harindra Kandarpa ( IEEE Mancomm member)</li> 
-                          </ul>
+                    <div class="face face3">
+                        <div class="projectheadtext">
+                            <strong>WIE WEBSITE</strong>
                         </div>
+                        <div class="project_text">
+                            <p>
+                                The team of the WIE Affinity Group of IEEE Student Branch Manipal undertook the project
+                                of
+                                designing a website for WIE IEEE- SBM in the month of September.
+                                The team consisted of a total of 10 members who worked under the guidance of 4 board
+                                members
+                                from IEEE SBM.
+                                The website was designed using CSS, Html and JavaScript.
+                                The webdev team had 8 members.
+                                They learned the different aspects ie graphics and web development from scratch and
+                                ultimately delivered great results.
+                                Each of them took up the task of designing the different pages.<br>
+                                <br>
+                                There was also a dedicated team for content who provided the articles for the WIE blog
+                                and
+                                other content material for the different pages of the website.
+                                It was a great learning opportunity for all the members as they got to learn and build
+                                on
+                                the skills of website development and team work.<br>
+                                <br>
+                                We would like to thank the webmaster, Abhishek Srivastav and graphics head, Ashish
+                                Sharma of
+                                IEEE SBM for their guidance and support in this project and the Chairperson and Vice
+                                Chairperson of WIE Affinty Group Navya Ambardar and Prita Saha for taking the
+                                initiative.
+                            </p>
+                        </div>>
                     </div>
-                    <div class="face face2">
-                       <div class="content">
-                           <p><strong>WEBSITE TEAM</strong></p>
-                        </div>
-                   </div>
                 </div>
             </div>
-                    <div class="col-12 col-sm-6 d-flex justify-content-center">
-                        <div class="cards">
-                            <div class="face face1">
-                               <div class="content">
-                                  <ul>
-                                      <br>
-                                      <br>
-                                    <li> Sanjana Bhardwaj ( IEEE Mancomm member)</li> 
-                                    <li> Snigdha Deshmukh ( IEEE Mancomm member)</li> 
-                                    <li> Gousiya ( IEEE Mancomm member)</li> 
-                                    <li> Abhishree Shaw ( IEEE Mancomm member)</li> 
-                                    <br>
-                                  </ul>
-                                </div>
+        </div>
+    </div>
+        </br>
+    </br>
+
+        <div class="container cont3">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-sm-6 d-flex justify-content-center">
+                    <div class="cards">
+                        <div class="face face1">
+                            <div class="col-12 text-center cardtext">
+                                WEBSITE TEAM
                             </div>
-                            <div class="face face2">
-                               <div class="content">
-                                   <p><strong>CONTENT TEAM</strong></p>
-                                </div>
-                           </div>
                         </div>
                     </div>
-        </div>
-    </div>
-           
-
-
-<!--
-    <div class="container cont4">
-        <div class="row justify-content-center text-center abtieeewie">
-            <div class="col-6">
-                <h1>FUTURE PROJECTS</h1> 
-            </div>
-        </div>
-    </div>
-    <div class="container cont5">
-        <div class="row justify-content-center text-center">
-            <div class="col-12 col-sm-6 d-flex justify-content-center">
-                <div class="cards">
-                    <div class="face face1">
-                       <div class="content">
-                            <img src="https://picsum.photos/1600/900" class="img-rounded" style="width:300px;height:300px;">
+                </div>
+                <div class="col-12 col-sm-6 d-flex justify-content-center">
+                    <div class="cards">
+                        <div class="face face1">
+                            <div class="col-12 text-center cardtext">
+                                CONTENT TEAM
+                            </div>
                         </div>
                     </div>
-                    <div class="face face2">
-                       <div class="content">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium illo
-                               dolorum ullam dolore voluptate.</p>
-                        </div>
-                   </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 d-flex justify-content-center">
-                <div class="cards">
-                    <div class="face face1">
-                       <div class="content">
-                            <img src="https://picsum.photos/1600/900" class="img-rounded" style="width:300px;height:300px;">
+        </div>
+        <br>
+
+        <div class="container cont4">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-sm-6 d-flex justify-content-center">
+                    <div class="cards">
+                        <div class="face face2">
+                            <div class="col-12  cardtext1">
+                                <ul>
+                                    <li> Anushree Bhat ( IEEE Mancomm member)</li>
+                                    <li> Ishika Agarwal ( IEEE Mancomm member)</li>
+                                    <li> Harsh Mishra ( IEEE Mancomm member)</li>
+                                    <li> Sara Dharmik ( IEEE Mancomm member)</li>
+                                    <li> Sanjana Bharadwaj ( IEEE Mancomm member)</li>
+                                    <li> Dristi Biyani ( IEEE Mancomm member)</li>
+                                    <li> Harindra Kandarpa ( IEEE Mancomm member)</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="face face2">
-                       <div class="content">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium illo
-                               dolorum ullam dolore voluptate.</p>
+                </div>
+                <div class="col-12 col-sm-6 d-flex justify-content-center">
+                    <div class="cards">
+                        <div class="face face2">
+                            <div class="col-12  cardtext1">
+                                <ul>
+                                    <br>
+                                    <br>
+                                    <li> Sanjana Bhardwaj ( IEEE Mancomm member)</li>
+                                    <li> Snigdha Deshmukh ( IEEE Mancomm member)</li>
+                                    <li> Gousiya ( IEEE Mancomm member)</li>
+                                    <li> Abhishree Shaw ( IEEE Mancomm member)</li>
+                                    <br>
+                                </ul>
+                            </div>
                         </div>
-                   </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
--->
-</br>
-</br>
-</br>
-<div class="container-fluid">
-    <div class="row justify-content-center text-center contactusrow">
-        <div class="col-12">
-            CONTACT US
-        </div>
-    </div>
-</div>
-<div class="container-fluid cont7">
-    <div class="row justify-content-center text-center socialrow">
-        <div class="col-4">
-            <a href="https://www.ieeemanipal.com" target="_blank"><img src="./img/index/ieeeLogo_white.png" id="sbmlogo"></a>
-        </div>
-        <div class="col-4 socialiconscol">
-            <div class="container-fluid">
-                <div class="row justify-content-center text-center socialiconscol2">
-                    <a href="https://www.facebook.com/bootsnipp"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-                    <a href="https://twitter.com/bootsnipp"><i id="social-tw" class="fa fa-instagram fa-3x social"></i></a>
-                    <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
-                    <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-                    <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        <br>
+        </br>
+        </br>
+        <div class="container-fluid">
+            <div class="row justify-content-center text-center contactusrow">
+                <div class="col-12">
+                    CONTACT US
                 </div>
             </div>
         </div>
-        <div class="col-4">
-            <div class="container-fluid" style="margin-top: 1em;">
-                <div class="row justify-content-center text-center">
-                    <span style="color: white;">
-                        <i class="fa fa-mobile" aria-hidden="true"></i> 
-                        9917737075
-                    </span>
+        <div class="container-fluid cont7">
+            <div class="row justify-content-center text-center socialrow">
+                <div class="col-4">
+                    <a href="https://www.ieeemanipal.com" target="_blank"><img src="./img/index/ieeeLogo_white.png"
+                            id="sbmlogo"></a>
                 </div>
-                <div class="row justify-content-center text-center">
-                    <span style="color: white;">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i> 
-                        wie.ieeesbm@gmail.com
-                    </span>
+                <div class="col-4 socialiconscol">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center text-center socialiconscol2">
+                            <a href="https://www.facebook.com/bootsnipp"><i id="social-fb"
+                                    class="fa fa-facebook-square fa-3x social"></i></a>
+                            <a href="https://twitter.com/bootsnipp"><i id="social-tw"
+                                    class="fa fa-instagram fa-3x social"></i></a>
+                            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-li"
+                                    class="fa fa-linkedin-square fa-3x social"></i></a>
+                            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp"
+                                    class="fa fa-google-plus-square fa-3x social"></i></a>
+                            <a href="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="row justify-content-center text-center">
-                    <span style="color: white;">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i> 
-                        MIT, Manipal. Pin-248006
-                    </span>
+                <div class="col-4">
+                    <div class="container-fluid" style="margin-top: 1em;">
+                        <div class="row justify-content-center text-center">
+                            <span style="color: white;">
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                                9917737075
+                            </span>
+                        </div>
+                        <div class="row justify-content-center text-center">
+                            <span style="color: white;">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                wie.ieeesbm@gmail.com
+                            </span>
+                        </div>
+                        <div class="row justify-content-center text-center">
+                            <span style="color: white;">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                MIT, Manipal. Pin-248006
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
 
-<div class="container-fluid cont8">
-    <div class="row justify-content-center text-center">
-        <div class="col-12 copyrightrow">
-            <span style="color: white; padding-top: 2rem;"><i class="fa fa-copyright" aria-hidden="true"></i> 2020 IEEE Student Branch Manipal, All rights reserved.</span>
+        <div class="container-fluid cont8">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 copyrightrow">
+                    <span style="color: white; padding-top: 2rem;"><i class="fa fa-copyright" aria-hidden="true"></i>
+                        2020 IEEE Student Branch Manipal, All rights reserved.</span>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="./js/achievements.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/achievements.js"></script>
 
 </body>
+
 </html>
