@@ -33,6 +33,27 @@ body {
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
 }
+#aboutbg3 {
+    z-index: -1;
+    height: 70vh;
+    /*transform: rotate(10deg);*/
+    position: absolute;
+    margin-top: 12em;
+    margin-left: -10em;
+    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+    filter:alpha(opacity=50); /* for <= IE 8 */
+}
+#aboutbg4 {
+    z-index: -1;
+    height: 70vh;
+    /*transform: rotate(10deg);*/
+    position: absolute;
+    margin-top: -8em;
+    margin-left: -4em;
+    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+    filter:alpha(opacity=50); /* for <= IE 8 */
+}
+
 button.navbar-toggler {
     float: right;
     margin: 20px;
