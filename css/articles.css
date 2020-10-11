@@ -9,6 +9,14 @@ body {
     /* position: absolute; */
     padding: 0rem;
 }
+
+.nav-item:hover {
+    transform: translate3d(2px,2px,2px);
+    font-size: xx-large;
+    /* text-shadow: 0.5px 0.5px 0.5px #acacac; */
+    text-decoration: underline;
+}
+
 #articleshead {
     width: 40vw;
     margin-top: 5em;
@@ -43,8 +51,8 @@ button.navbar-toggler {
     height: 70vh;
     transform: rotate(10deg);
     position: absolute;
-    margin-top: 20em;
-    margin-left: -7em;
+    margin-top: 10em;
+    margin-left: -8em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
 }
@@ -55,7 +63,7 @@ button.navbar-toggler {
     transform: rotate(-10deg);
     position: absolute;
     margin-top: 45em;
-    right: -7em;
+    right: -9em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
 }
@@ -279,13 +287,25 @@ button.navbar-toggler {
 
 .blog-post__cta{
     display: inline-block;
-    padding: 0.5rem 1.5rem;
-    letter-spacing: 1px;
+    padding: 0.3rem 1.5rem;
     text-transform: uppercase;
     font-size: 1.2rem;
     color: #ffffff;
     background-image: linear-gradient(to right, #fa01c4 0%, #4b0f63 100%);
-    border-radius: 10rem;
+    border-radius: 0.7rem;
+    text-decoration: none;
+}
+
+.blog-post__cta:hover{
+    display: inline-block;
+    padding: 0.3rem 1.55rem;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #fa01c4 0%, #4b0f63 100%);
+    box-shadow: 0rem 0rem 0.7rem 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0.7rem;
     text-decoration: none;
 }
 

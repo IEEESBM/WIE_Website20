@@ -155,12 +155,20 @@ html{
     padding: 0rem;
 }
 
+
+.nav-item:hover {
+    transform: translate3d(2px,2px,2px);
+    font-size: xx-large;
+    /* text-shadow: 0.5px 0.5px 0.5px #acacac; */
+    text-decoration: underline;
+}
+
 #articlebg1 {
     z-index: -1;
     height: 70vh;
     transform: rotate(10deg);
     position: absolute;
-    margin-top: 20em;
+    margin-top: 0em;
     margin-left: -6em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
@@ -171,7 +179,7 @@ html{
     height: 70vh;
     transform: rotate(-10deg);
     position: absolute;
-    margin-top: 45em;
+    margin-top: 50em;
     right: -8em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
