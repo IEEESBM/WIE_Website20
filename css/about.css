@@ -19,7 +19,7 @@ body {
     /*transform: rotate(10deg);*/
     position: absolute;
     margin-top: 12em;
-    margin-left: -4em;
+    margin-left: -6em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
 }
@@ -39,7 +39,7 @@ body {
     /*transform: rotate(10deg);*/
     position: absolute;
     margin-top: 12em;
-    margin-left: -10em;
+    margin-left: -22em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
 }
