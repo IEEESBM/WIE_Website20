@@ -1,9 +1,11 @@
-{
+*{
     font-family: Roboto;
 }
+
 body {
     padding: 0px 0px 0px 0px;
     z-index: 0; 
+    overflow-x: hidden;
 }
 .navbar{
     padding:0;
@@ -46,8 +48,8 @@ body {
 }
 .cont2
 {
-        margin-top: 8vh;
-        padding: 0;
+    margin-top: 10vh;
+    padding: 0;
 }
 .cardrow {
     color: black;
@@ -77,6 +79,22 @@ body {
       color:#752F8B;
       text-align: center;
   }
+
+.project_text a {
+    background:linear-gradient(to bottom, #dfb6ff 0%, #dfb6ff 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size 1s;
+    font-style: italic;
+}
+
+.project_text a:hover {
+    background-size: 4px 50px;
+}
+
 .contcards {
     margin-top: 2vh;
 }
