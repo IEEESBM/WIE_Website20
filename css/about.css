@@ -113,7 +113,7 @@ button.navbar-toggler {
     padding: 120px 0px 0px 0px;
 }
   .cont7 {
-      box-sizing: content-box;
+    box-sizing: content-box;
     background-image: url('../img/about/socialfooter1.svg');
     background-repeat: no-repeat;
     background-size: cover;
