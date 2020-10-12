@@ -47,7 +47,7 @@ body {
     /*transform: rotate(10deg);*/
     position: absolute;
     margin-top: 12em;
-    margin-left: -22em;
+    margin-left: -12em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
 }
@@ -56,8 +56,18 @@ body {
     height: 70vh;
     /*transform: rotate(10deg);*/
     position: absolute;
-    margin-top: 10em;
+    margin-top: -5em;
     margin-left: -4em;
+    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+    filter:alpha(opacity=50); /* for <= IE 8 */
+}
+#aboutbg5 {
+    z-index: -1;
+    height: 70vh;
+    /*transform: rotate(-10deg);*/
+    position: absolute;
+    margin-top: -25em;
+    right: -8em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
 }
@@ -111,7 +121,7 @@ button.navbar-toggler {
 
 .cont4 {
     box-sizing: content-box;
-    background-image: url('../img/about/purplebg.svg');
+    background-image: url('../img/about/purplebg1.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
