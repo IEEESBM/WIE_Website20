@@ -5,7 +5,8 @@ ul {
 }
 body {
     padding: 0px 0px 0px 0px;
-    z-index: 0; 
+    z-index: 0;
+    overflow-x: hidden; 
     /*background-color: rgb(212, 179, 202);*/
 }
 .navbar {
@@ -41,7 +42,7 @@ body {
     transform: rotate(10deg);
     position: absolute;
     margin-top: -2em;
-    margin-left: -8em;
+    margin-left: -12em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
 }
@@ -49,10 +50,10 @@ body {
 #articlebg2 {
     z-index: -1;
     height: 70vh;
-    transform: rotate(-10deg);
+    transform: rotate(-15deg);
     position: absolute;
     margin-top: 25em;
-    right: -9em;
+    right: -12em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
 }
@@ -109,12 +110,22 @@ body {
     width: 100%;
     height: 100%;
     max-width: 98rem;
-    padding: 4rem;
+    padding: 2rem;
     background-color: #ffffff;
     box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
     border-radius: 0.8rem ;
+}
+
+.blog-post__info {
+    width: 100em;
+    /* margin-left: -4rem; */
+}
+
+.blog-post__infoothers {
+    width: 100em;
+    margin-left: -5rem;
 }
 
 .card-events{
@@ -123,11 +134,9 @@ body {
 }
 
 .blog-post__img{
-    /* min-width: 35rem;
-    max-width: 35rem;
-    height: 30rem; */
-    padding: 0rem;
-    width: 110rem;
+    min-width: 20rem;
+    max-width: 20rem;
+    height: 20rem;
     transform: translateX(-8rem);
     position: relative;
 }
@@ -171,10 +180,8 @@ body {
 }
 
 .blog-post__title{
-    font-size: 1rem;
-    margin: 1.5rem 0 2rem;
-    text-transform: uppercase;
-    color: #4fac4f;
+    text-align: center;
+
 }
 
 .blog-post__text{
@@ -186,13 +193,20 @@ body {
 
 .blog-post__cta{
     display: inline-block;
-    padding: .5rem 1rem;
-    letter-spacing: 1px;
+    padding: 0.3rem 1.5rem;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #ffffff;
     background-image: linear-gradient(to right, #fa01c4 0%, #4b0f63 100%);
-    border-radius: 0.8rem;
+    border-radius: 0.7rem;
+    text-decoration: none;
+}
+
+.blog-post__cta:hover{
+    padding: 0.3rem 1.5rem;
+    position: relative;
+    color: #ffffff;
+    box-shadow: 0rem 0rem 0.7rem 4px rgba(0, 0, 0, 0.2);
     text-decoration: none;
 }
 
