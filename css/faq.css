@@ -20,8 +20,8 @@ body {
 }
 
 .accsection {
-    margin-top: 30em;
-    margin-bottom: 5em;
+    /* margin-top: 50vw; */
+    margin-bottom: 65em;
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
@@ -46,6 +46,7 @@ body {
 } 
 .accordion{
     /*max-width: 900px;*/
+    top: 50em;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border-radius: 5px;
     overflow: hidden;
@@ -442,5 +443,5 @@ html{
 
 #articleshead {
     width: 50vw;
-    margin-top: 2em;
+    margin-top: 7em;
 }
