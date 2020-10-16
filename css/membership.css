@@ -6,11 +6,15 @@ body{
 }
 .navbar {
     /* position: absolute; */
+    font-weight: 700;
     padding: 0rem;
 }
 
-.navbar-dark {
-    /* background-color: #512DA8; */
+.nav-item:hover {
+    transform: translate3d(2px,2px,2px);
+    font-size: xx-large;
+    /* text-shadow: 0.5px 0.5px 0.5px #acacac; */
+    text-decoration: underline;
 }
 
 #membershiphead {    
