@@ -55,6 +55,12 @@ border-color: black;
     
 }
 
+#membershiphead {    
+    width: 60vw;
+    margin-top: 0em;
+    position: relative;
+}
+
 
 .carousel-inner img {
     top: 0;
@@ -89,6 +95,11 @@ width:50px;}
     display: flex;
    align-items: center;
     border-radius: 0.8rem ;
+}
+#flowchart{
+    width: 600px;
+    height:400px;
+    
 }
 
 /*.blog-postcard{
@@ -174,9 +185,9 @@ width:50px;}
 
 .blog-post__text{
     text-align: justify;
-    margin-bottom: 0rem;
+    margin-bottom: 3rem;
     /*font-size: 1rem;*/
-    font-size: 1.4rem;
+    font-size: 1rem;
     color:rgba(0,0,0,0.7);
 }
 
@@ -363,6 +374,9 @@ width:50px;}
     background-color:#752f8b;
     color:white;;
 }
+#memhead{
+   
+}
 @media only screen and (max-device-width: 540px){
     .logo{
         background-color: whitesmoke;
@@ -377,6 +391,7 @@ width:50px;}
         max-width: 85vw;
         margin: auto;
     }
+    
     .blog-post__img{
         margin-top: 25%;
         min-width: 100%;
@@ -400,6 +415,54 @@ width:50px;}
     img#membership2{
         display: none;
     }
+
+    #membershiphead {    
+        width: 60vw;
+    margin-top: 4em;
+    margin-left: -30%;
+    }
+
+    .cont1{
+        top:-2em;
+        left: -5em; 
+        position: relative;
+        text-align: center;
+        color: white;
+        height: 80px  !important; 
+        width: 100px  !important;
+    }
+    #flowchart{
+        width: 230px;
+        height:200px;
+        margin-left: -4em; 
+        margin-top: -2em;
+    }
+    .text{
+        position: absolute;
+        width:80px;
+        height: 40px;
+        top: 200%;
+        left: 35%;
+        background-color:#752f8b;
+        color:white;;
+    }
+    #memhead{
+      /*  font-size: 10px !important;*/
+        
+    }
+
+    .blog-post1{
+        width: 70%;
+        height: 90%;
+        max-width: 50rem;
+        padding: 5rem;
+        background-color: #ffffff;
+        box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
+        display: flex;
+       /*align-items: center;*/
+        border-radius: 0.8rem ;
+    }
+    
     
 }
 
