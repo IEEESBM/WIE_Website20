@@ -225,24 +225,74 @@ body {
     }
 }
 
-@media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-	
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	.blog-post{
-        padding: 2.5rem;
+        padding: 1.5rem;
         flex-direction: column;
-        max-width: 80rem;
+        max-width: 85vw;
+        margin: auto;
     }
     .blog-post__img{
+        margin-top: 25%;
         min-width: 100%;
         max-width: 100%;
         transform: translate(0,-8rem);
-        min-width: 30rem;
-        max-width: 30rem;
+        /* min-width: 30rem; */
+        max-width: 50vw;
+    }
+
+    .container .cards2 {
+        margin-top: -5em !important;
+    }
+    .container .cards {
+        margin-top: -2em;
+    }
+    
+
+    .blog-post__info {
+        margin-top: -6.5em;
+    }
+
+    .blog-post__img::before{
+        background: none;
+        box-shadow: 0.5rem 0.5rem 0.3rem 1px rgba(0,0,0,0.05);
+        border-radius: 0.8rem;
+    }
+
+    .landingdesktop {
+        position: center;
+        width: 200%;
+        margin-left: -50%;
+    }
+
+    .card {
+        /* Add shadows to create the "card" effect */
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        transition: 0.3s;
+        width: 200px;
+        height: 240px;
+        margin: auto;
+        margin-bottom: 3em;
+    }
+    .card1 {
+        margin-top: 1em;
     }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+        .blog-post{
+            padding: 2.5rem;
+            flex-direction: column;
+            max-width: 80rem;
+        }
+        .blog-post__img{
+            min-width: 100%;
+            max-width: 100%;
+            transform: translate(0,-8rem);
+            min-width: 30rem;
+            max-width: 30rem;
+        }
+    }
 
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
