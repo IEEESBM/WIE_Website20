@@ -49,16 +49,11 @@ border-color: black;
     position: absolute;
     margin-top: -12em;
     right:-6em;
+    margin-right: 13em;
     opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
     filter:alpha(opacity=50); /* for <= IE 8 */
     z-index: -1;
     
-}
-
-#membershiphead {    
-    width: 60vw;
-    margin-top: 0em;
-    position: relative;
 }
 
 
@@ -70,7 +65,7 @@ border-color: black;
     margin: auto;
     position: relative;
     width: 70%;
-    height: 20em;
+    height: auto;
     display: block;
  }
  .carousel-indicators li{
@@ -95,11 +90,6 @@ width:50px;}
     display: flex;
    align-items: center;
     border-radius: 0.8rem ;
-}
-#flowchart{
-    width: 600px;
-    height:400px;
-    
 }
 
 /*.blog-postcard{
@@ -177,18 +167,17 @@ width:50px;}
 }
 
 .blog-post__title{
-    font-size: 2.5rem;
-    margin: 0 0 0;
+    font-size: 1rem;
+    margin: 1.5rem 0 2rem;
     text-transform: uppercase;
-    color: black;
-    margin-left: -1em;
+    color: #4fac4f;
 }
 
 .blog-post__text{
     text-align: justify;
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
     /*font-size: 1rem;*/
-    font-size: 1rem;
+    font-size: 1.4rem;
     color:rgba(0,0,0,0.7);
 }
 
@@ -242,7 +231,7 @@ width:50px;}
 } */
 
 .cont7 {
-   background-image: url('../img/index/socialfooter1.svg');
+    background-image: url('../img/index/socialfooter1.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -336,7 +325,7 @@ width:50px;}
 }
 
 .cont8 {
-    background-image: url('../img/index/footer.svg');
+     background-image: url('../img/index/footer.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -359,12 +348,11 @@ width:50px;}
 } 
 
 .cont1{
-        top:1em;
-        left: -4em; 
+        top:0em;
+        left: 2em; 
         position: relative;
         text-align: center;
         color: white;
-   
 }
 .text{
     position: absolute;
@@ -374,9 +362,6 @@ width:50px;}
     left: 35%;
     background-color:#752f8b;
     color:white;;
-}
-#memhead{
-   
 }
 @media only screen and (max-device-width: 540px){
     .logo{
@@ -392,7 +377,6 @@ width:50px;}
         max-width: 85vw;
         margin: auto;
     }
-    
     .blog-post__img{
         margin-top: 25%;
         min-width: 100%;
@@ -416,64 +400,30 @@ width:50px;}
     img#membership2{
         display: none;
     }
-
-    #membershiphead {    
-        width: 60vw;
-    margin-top: 4em;
-    margin-left: -30%;
+    #num
+    {
+        padding:0rem;
     }
-
-    .cont1{
-        top:-2em;
-        left: -5em; 
+    .carousel-inner img {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
         position: relative;
-        text-align: center;
-        color: white;
-        height: 80px  !important; 
-        width: 100px  !important;
-    }
-    #flowchart{
-        width: 300px;
-        height:200px;
-        margin-left: -3em; 
-        margin-top: -2em;
-    }
-    .text{
-        position: absolute;
-        width:80px;
-        height: 40px;
-        top: 200%;
-        left: 75%;
-        background-color:#752f8b;
-        color:white;;
-    }
-    #memhead{
-      /*  font-size: 10px !important;*/
-        
-    }
-
-    .blog-post1{
         width: 100%;
-        height: 90%;
-        max-width: 50rem;
-        padding: 5rem;
-        background-color: #ffffff;
-        box-shadow: 0 1.4rem 8rem rgba(0,0,0,0.2);
-        display: flex;
-       /*align-items: center;*/ 
-        border-radius: 0.8rem ;
-        
-        
-    }
-    .blog-post__title{
-        font-size: 1rem;
-        margin: 1.5rem 0 1rem;
-        text-transform: uppercase;
-        color: black;
-    }
+        height: auto;
+        display: block;
+     }
     
 }
+@media only screen and (max-device-width:540px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 1) 
+{.video iframe{
+    width: 100%;
+    height:250px;
+} 
 
+}
 @media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 	
 }
