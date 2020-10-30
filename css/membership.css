@@ -175,9 +175,9 @@ width:50px;}
 
 .blog-post__text{
     text-align: justify;
-    margin-bottom: 0rem;
+    margin-bottom: 3rem;
     /*font-size: 1rem;*/
-    font-size: 1.4rem;
+    font-size: 1rem;
     color:rgba(0,0,0,0.7);
 }
 
@@ -238,7 +238,21 @@ width:50px;}
     background-position-y: 7rem;
     height: 365.31px;
 }
+#httm
+{
+    font-size: 1.8rem;
+    margin-top: -200px;
+    margin-left: 70px;
+    color: black;
+}
 
+#flowchart
+{
+    width: 550px;
+    height: 450px;
+    margin-left:-40px;
+
+}
 #sbmlogo {
     position: absolute;
     top: 0;
@@ -415,7 +429,34 @@ width:50px;}
         height: auto;
         display: block;
      }
-    
+     #httm
+     {
+        font-size: 1rem;
+        margin-top: 0px;
+        margin-left: 40px;
+        color: black;
+     }
+     #flowchart
+     {
+         width: 300px;
+         height: 200px;
+     }
+     #but
+     {
+         height: 50px;
+         width: 100px;
+         margin-left: -40px;
+         margin-top: -15px;
+     }
+     .blog-post__text{
+        text-align: justify;
+        margin-bottom: 3rem;
+        margin-top: -3rem;
+        /*font-size: 1rem;*/
+        font-size: 1rem;
+        color:rgba(0,0,0,0.7);
+    }
+   
 }
 @media only screen and (max-device-width:540px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 1) 
 {.video iframe{
@@ -424,8 +465,52 @@ width:50px;}
 } 
 
 }
-@media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-	
+@media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1)
+{
+	#httm
+     {
+        font-size: 1.5rem;
+        margin-top: 0px;
+        margin-left: 100px;
+        color: black;
+     }
+     #flowchart
+     {
+         width: 400px;
+         height: 300px;
+         margin-left: 50px;
+     }
+     #but
+     {
+         height: 50px;
+         width: 100px;
+         margin-left: 20px;
+         margin-top: -15px;
+     }
+     .blog-post__img{
+        min-width: 70%;
+        max-width: 70%;
+        transform: translate(0,-2rem);
+        min-width: 10rem;
+        max-width: 12rem;
+        margin-left: -90px;
+        max-height:  12rem; ;
+    }
+    .blog-post__title1{
+        top:-10rem;
+        font-size: 1.2rem;
+        margin: 5rem -6rem 2rem;
+        text-transform: uppercase;
+        color:black;
+    }
+    .blog-post__text{
+        text-align: justify;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+        /*font-size: 1rem;*/
+        font-size: 1rem;
+        color:rgba(0,0,0,0.7);
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
