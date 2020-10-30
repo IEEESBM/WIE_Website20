@@ -376,57 +376,59 @@ border-color: black;
     }
     #abouthead {
         width: 80vw;
-        margin-left: 5em;
+        margin-left: 20vw;
     }
 
     .card {
-        /* Add shadows to create the "card" effect */
-        width: 350px;
+        width: 350vw;
         margin: auto;
-        margin-left: 2rem;
-        margin-right: -3rem;
-        margin-bottom: 3em;
+        margin-left: 10vw;
+        margin-right: -10vw;
+        margin-bottom: 15vw;
         align-items: center;
     }
     .contcard h4{
-        font-size: 2rem;
+        font-size: 8vw;
+    }
+    .contcard h5{
+        font-size: 7vw;
     }
     .contcard p{
-        font-size: 1.5rem;
+        font-size: 6vw;
     }
     .heading {
-        font-size: 2rem;
-        margin-left: 3rem;
-        margin-right: -3rem;
+        font-size: 8vw;
+        margin-left: 15vw;
+        margin-right: -15vw;
         text-align: center;
     }
     #aboutbg1 {
         height: 50vh;
-        margin-top: 40em;
+        margin-top: 180vw;
     }
     #aboutbg2 {
         height: 50vh;
-        margin-top: -20em;
-        right: -8em;
+        margin-top: -80vw;
+        right: -40vw;
     }
     #aboutbg3 {
         height: 50vh;
-        margin-top: -12em;
-        margin-left: -8em;
+        margin-top: -60vw;
+        margin-left: -36vw;
     }
     #aboutbg4 {
         height: 50vh;
-        margin-top: -5em;
-        margin-left: -4em;
+        margin-top: -30vw;
+        margin-left: -30vw;
     }
     #aboutbg5 {
         height: 50vh;
-        margin-top: -15em;
-        right: -8em;
+        margin-top: -60vw;
+        right: -40vw;
     }
     .cont4 {
         width: 100%;
-        height: 367px; 
+        height: 100vw; 
     }
     .carouselcont{
         padding: 40px 0px 0px 0px;
