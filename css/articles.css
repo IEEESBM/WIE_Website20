@@ -367,7 +367,8 @@ button.navbar-toggler {
     #articleshead {
         width: 100%;
         align-content: center;
-        margin-bottom: -25%;
+        margin-bottom: 15%;
+        margin-left: -20%;
         }  
     #articlebg1 {
         height: 60%;

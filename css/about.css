@@ -1,8 +1,11 @@
-
+* {
+    font-family: Roboto;
+}
 html,body {
     overflow-x: hidden;
     padding: 0px 0px 0px 0px;
     z-index: 0; 
+    font-family: 
 }
 .navbar {
     /* position: absolute; */
