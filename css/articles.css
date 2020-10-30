@@ -1,10 +1,10 @@
 
-body {
-    overflow-x: hidden;
+html, body {
     padding: 0px 0px 0px 0px;
-    z-index: 0; 
-    /* background-color: lightblue; */
+    z-index: 0;
+    overflow-x: hidden; 
 }
+
 .navbar {
     /* position: absolute; */
     font-weight: 700;
@@ -18,9 +18,18 @@ body {
     text-decoration: underline;
 }
 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+border-color: black;
+}
+
 #articleshead {
-    width: 40vw;
+    width: 70vw;
     margin-top: 5em;
+    margin-bottom: -20em;
 }
 
 button.navbar-toggler {
@@ -100,7 +109,7 @@ button.navbar-toggler {
 }
 
 .cont4 {
-     background-image: url('../img/about/purplebg.svg');
+     background-image: url('../img/index/socialfooter.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -111,7 +120,7 @@ button.navbar-toggler {
     padding: 120px 0px 0px 0px;
 }
   .cont7 {
-    background-image: url('../img/about/socialfooter1.svg');
+    background-image: url('../img/index/socialfooter1.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -209,7 +218,7 @@ button.navbar-toggler {
 }
 
 .footer {
-    background-image: url('../img/about/footer.svg');
+    background-image: url('../img/index/footer.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -265,22 +274,8 @@ button.navbar-toggler {
     border-radius: 0.8rem;
 }
 
-
-/* .blog-post__img:hover::before {      // Old Anushree's code
-    opacity: 0; 
-} */
-
-.blog-post:hover .blog-post__img::before {      /*New code for opacity 0 on hover over entire card*/
+.blog-post:hover .blog-post__img::before { 
     opacity: 0;
-}
-
-
-.blog-post__date span{
-    display: block;
-    color: rgba(0,0,0,0.5);
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin: 0.2rem 0;
 }
 
 .blog-post__title{
@@ -331,34 +326,77 @@ button.navbar-toggler {
         min-width: 100%;
         max-width: 100%;
         transform: translate(0,-8rem);
-        /* min-width: 30rem; */
         max-width: 50vw;
     }
 }
 
-@media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-	
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	.blog-post{
-        padding: 2.5rem;
+        /*padding: 1.5rem;*/
         flex-direction: column;
-        max-width: 80rem;
+        min-width: 100%;
+        max-width: 100%;
+        margin-bottom: 7em;
+        box-shadow: 0 1rem 4rem rgba(0,0,0,0.2);
+        margin-left: -1.5em;
     }
     .blog-post__img{
+        margin-top: 15%;
         min-width: 100%;
         max-width: 100%;
         transform: translate(0,-8rem);
-        min-width: 30rem;
-        max-width: 30rem;
+        /* min-width: 30rem; */
+        max-width: 50vw;
     }
-}
+    .blog-post__title {
+        text-align: center;
+    }
+    .blog-post__text {
+        text-align: justify;
+    }
+    .blog-post__info {
+        margin-top: -6.5em;
+        margin-left: 0.3rem;
+    }
 
+    .blog-post__img::before{
+        background: none;
+        box-shadow: 0.5rem 0.5rem 0.3rem 1px rgba(0,0,0,0.05);
+        border-radius: 0.8rem;
+    }
+    #articleshead {
+        width: 100%;
+        align-content: center;
+        margin-bottom: -25%;
+        }  
+    #articlebg1 {
+        height: 60%;
+        margin-top: 50%;
+        display: none;
+        
+    }
+    
+    #articlebg2 {
+        height: 60%;
+        margin-top: 200%;
+        display: none;
+        
+    }
+    
+    #articlebg3 {
+        height: 60%;
+        margin-top: 350%;
+        display: none;
+    }
 
+    .blog-post__cta{
+        display:flex;
+        justify-content: center;
+    }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 	
 }
 
 @media only screen and (min-device-width: 1025px) {}
+}
