@@ -218,7 +218,7 @@ width:50px;}
 } 
 .blog-post__title1{
     top:-10rem;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     margin: 5rem 0rem 2rem;
     text-transform: uppercase;
     color:black;
@@ -241,14 +241,14 @@ width:50px;}
 #httm
 {
     font-size: 1.8rem;
-    margin-top: -200px;
+    margin-top: 10px;
     margin-left: 70px;
     color: black;
 }
 
 #flowchart
 {
-    width: 550px;
+    width: 100%;
     height: 450px;
     margin-left:-40px;
 
@@ -438,7 +438,7 @@ width:50px;}
      }
      #flowchart
      {
-         width: 300px;
+         width: 100%;
          height: 200px;
      }
      #but
@@ -476,7 +476,7 @@ width:50px;}
      }
      #flowchart
      {
-         width: 400px;
+         width: 100%;
          height: 300px;
          margin-left: 50px;
      }
@@ -530,9 +530,15 @@ width:50px;}
 
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-	
+	#space{
+        display: none;}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+	#space{
+        display: none;}
 }
 
 @media only screen and (min-device-width: 1025px) {
-	
+	#space{
+        display: none;}
 } 
