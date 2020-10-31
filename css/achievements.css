@@ -31,6 +31,7 @@ border-color: black;
     width: 60vw;  
     position: relative;
 }
+
 #bg1 {
     z-index: -1;
     height: 70vh;
@@ -125,6 +126,14 @@ border-color: black;
 .project_text a:hover {
     background-size: 4px 50px;
 }
+#header1
+{
+    display: none;
+}
+#header2
+{
+    display: none;
+}
 
 .contcards {
     margin-top: 2vh;
@@ -149,8 +158,8 @@ border-color: black;
 .container .cards .face {
     position: relative;
    
-    width: 400px;
-    height: 300x;
+    width: auto;
+    height: auto;
 }
 
 .container .cards .face.face1 {
@@ -317,6 +326,8 @@ border-color: black;
     }
     .face.face2{
         margin-top: 1em;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .blog-post{
         padding: 1.5rem;
@@ -341,10 +352,37 @@ border-color: black;
     .cardtext1
     {
         color: black;
-        font-size: 1rem;
-        
+        font-size: .9rem;
         text-align: left;
     }
+    #achievmenthead {
+        width: 50vw;
+        margin-top: 0em;
+        vertical-align: middle; 
+        width: 35%; 
+        min-width: 200px;
+    }
+    .project {
+        margin-top: -50px;
+        margin-bottom: -50px;
+        font-size: 2rem;
+    }
+    #header1
+{
+    margin-top: -1em;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color:#752F8B;
+    text-align: center;
+}
+#header2
+{
+    margin-top: -1em;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color:#752F8B;
+    text-align: center;}
+
 
 
 @media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
