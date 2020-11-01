@@ -151,7 +151,7 @@ border-color: black;
 }
 
 .carouselcont{
-    padding: 120px 0px 0px 0px;
+    padding: 220px 0px 0px 0px;
 }
  
 .cont7 {
@@ -353,7 +353,7 @@ border-color: black;
         max-width: 100%;
         margin-bottom: 7em;
         box-shadow: 0 1rem 4rem rgba(0,0,0,0.2);
-        margin-left: -1.5em;
+        margin-left: -1.3em; 
     }
     .blog-post__img{
         margin-top: 15%;
@@ -402,7 +402,7 @@ border-color: black;
     }
     .heading {
         font-size: 8vw;
-        /* margin-left: 15vw;
+       /* margin-left: 15vw;
         margin-right: -15vw; */
         text-align: center;
     }
@@ -426,7 +426,7 @@ border-color: black;
         height: 100vw; 
     }
     .carouselcont{
-        padding: 40px 32px 0px 0px;
+        padding: 100px 32px 0px 0px;
     }
 }
 
