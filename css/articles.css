@@ -27,7 +27,7 @@ border-color: black;
 }
 
 #articleshead {
-    width: 100%;
+    width: 80%;
     margin-top: 5em;
     margin-left: -5em;
     
@@ -282,7 +282,6 @@ button.navbar-toggler {
 .blog-post__title{
     font-size: 2.0rem;
     margin: 0.5rem 0 0.5rem;
-    text-transform: uppercase;
     color:black;
     font-weight: 1000;
 }
