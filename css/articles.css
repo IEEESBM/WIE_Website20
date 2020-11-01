@@ -469,8 +469,14 @@ text-align: center;
         text-align: left;
     }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-	
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .blog-post__cta:hover{
+        display:none;
+            }
+    .blog-post__img::before{
+            background: none;
+              
+        }
 }
 
 @media only screen and (min-device-width: 1025px) {}
