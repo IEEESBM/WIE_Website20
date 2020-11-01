@@ -401,7 +401,14 @@ border-color: black;
 
 
 @media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-	
+    #achievmenthead {
+        width: 50vw;
+        margin-top: -50px;
+        margin-bottom: 40px;
+        vertical-align: middle; 
+        width: 35%; 
+        min-width: 200px;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
