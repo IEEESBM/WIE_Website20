@@ -326,15 +326,6 @@ border-color: black;
     /* margin-top: 10rem; */
 }
 
-.socialiconscol {
-    /* margin-top: 5em; */
-    /* padding-left: 5em;
-    padding-right: 5em;
-    border-style: solid;
-    border-width: 0 2.7px;
-    border-color: #f0d1f0; */
-}
-
 .socialiconscol2 {
     margin-top: 10vh; 
     padding: 1rem;
@@ -455,5 +446,32 @@ border-color: black;
         position: relative;
         margin-top: 0px
     
+
+}
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    #articleshead {
+        width: 70%;
+        margin-top: 25%;
+        /* margin-bottom: -10%;    */
+    }
+    #articlebg1 {
+        height: 45vh;
+        margin-top: 10em;
+         /* display: none; */
+     }
+     
+     #articlebg2 {
+         height: 35vh;
+         margin-top: 40em;
+         /* display: none; */
+     }
+    
+    .cont{
+        width: 125%;
+    } 
+        
 
 }
