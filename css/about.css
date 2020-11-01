@@ -516,16 +516,87 @@ border-color: black;
 	.blog-post{
         padding: 2.5rem;
         flex-direction: column;
-        max-width: 80rem;
+        max-width: 50vw;
     }
     .blog-post__img{
         min-width: 100%;
         max-width: 100%;
         transform: translate(0,-8rem);
-        min-width: 30rem;
-        max-width: 30rem;
+        max-width: 50vw;
     }
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .cont {
+        padding: 0px 0px 0px 0px;
+    }
+    .blog-post{
+        /*padding: 1.5rem;*/
+        flex-direction: column;
+        margin: auto;
+        min-width: 80%;
+        max-width: 80%;
+        margin-bottom: 7em; 
+        box-shadow: 0 1rem 4rem rgba(0,0,0,0.2);
+         /* margin-left: -1.5em;  */
+    }
+    .blog-post__img{
+        margin-top: 15%;
+        min-width: 90%;
+        max-width: 90%;
+        transform: translate(0,-10rem);
+        /* min-width: 30rem; */
+        max-width: 50vw;
+    }
+    .blog-post__title {
+        text-align: center;
+        font-size: 250%;
+    }
+    .blog-post__text {
+        text-align: justify;
+        font-size: 150%;
+
+    }
+    .blog-post__info {
+        margin-top: -6.5em;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .blog-post__img::before{
+        background: none;
+        box-shadow: 0.5rem 0.5rem 0.3rem 1px rgba(0,0,0,0.05);
+        border-radius: 0.8rem;
+    }
+    .heading {
+        font-size: 6vw;
+        margin-bottom: 2em;
+        /* margin-left: 15vw;
+        margin-right: -15vw; */
+        text-align: center;
+    }
+    .carouselcont {
+        padding: 100px 0px 0px 0px;
+    }
+    .card {
+        width: 40%;
+        margin: 20px 20px 20px 20px;
+        /* margin-left: -10vw;
+        margin-right: -10vw; */
+        align-items: center;
+    }
+    .contcard h4{
+        font-size: 4vw;
+    }
+    .contcard h5{
+        font-size: 3.5vw;
+    }
+    .contcard p{
+        font-size: 3vw;
+    }
+    .contactusrow {
+        margin-top: 10vw;
+    }
 
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
