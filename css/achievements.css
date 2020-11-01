@@ -27,7 +27,8 @@ body {
 border-color: black;
 } 
 #achievmenthead {
-    margin-top: -8rem;
+    /*margin-top: -8rem;*/
+    margin-top: -5vh;
     width: 60vw;  
     position: relative;
 }
@@ -55,12 +56,12 @@ border-color: black;
     filter:alpha(opacity=50); /* for <= IE 8 */
 }
 .project {
-    margin-top: -15rem;
+    margin-top: -15%;
     margin-bottom: -2rem;
     font-size: 3rem;
 }
 .cont2
-{
+{   text-align: justify;
     margin-top: 15vh;
     padding: 0;
 }
@@ -98,7 +99,7 @@ border-color: black;
   {
      color:black;
      font-size: 1.4rem;
-     padding: 25px;
+     /*padding: 25px;*/
      padding-bottom: 20px;
      line-height: 30px;
       
