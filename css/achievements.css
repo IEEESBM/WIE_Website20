@@ -199,6 +199,10 @@ border-color: black;
     text-align: left;
    
 }
+.cardtextmobilecontent {
+    margin-top: 0em !important;
+    margin-bottom: 0em !important;
+}
 .container .cards .face.face3 {
     position: relative;
     box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
@@ -417,6 +421,10 @@ border-color: black;
         font-size: .9rem;
         text-align: left;
     }
+    .cardtextmobilecontent {
+        margin-top: 3em !important;
+        margin-bottom: 0.8em !important;
+    }
     #achievmenthead {
         width: 50vw;
         margin-top: 0em;
@@ -511,18 +519,19 @@ border-color: black;
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	 .cardtext1 {
       display: none;
-}
-#header1
-{
-    display: none;
-}
-#header2
-{
-    display: none;
-}
-.cont5
-{
-    display: none;
+    }
+    #header1
+    {
+        display: none;
+    }
+    #header2
+    {
+        display: none;
+    }
+    .cont5
+    {
+        display: none;
+    }
 }
 
 
