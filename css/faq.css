@@ -39,11 +39,13 @@ border-color: black;
 
 #articleshead {
     width: 50%;
-    margin-top: 5em;
+    margin-top:17em;
     margin-bottom: -5em;
+    z-index: 1;
 }
 
     .cont{
+        z-index: 2;
         display: block;
         padding-bottom: 0;
         margin-left: auto;
