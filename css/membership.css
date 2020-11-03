@@ -249,7 +249,7 @@ width:50px;}
 #flowchart
 {
     width: 100%;
-    height: 450px;
+    height: 350px;
     margin-left:-40px;
 
 }
@@ -437,6 +437,12 @@ width:50px;}
         width: 100;
         height: 100;
     }
+    #membershiphead {    
+        width: 60vw;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        position: relative;
+    }
 
 }@media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	.blog-post{
@@ -492,9 +498,9 @@ width:50px;}
      }
      #flowchart
      {
-         width: 140%;
-         height: 200px;
-         margin-left: -70px;
+         width: 100%;
+         height: 250px;
+         margin-left: -60px;
      }
      #but
      {
@@ -533,7 +539,12 @@ width:50px;}
         right: 0;
         margin: auto; 
     }
-    
+    #membershiphead {    
+        width: 60vw;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        position: relative;
+    }
    
 }
 @media only screen and (max-device-width:540px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 1) 
@@ -541,6 +552,12 @@ width:50px;}
     width: 100%;
     height:250px;
 } 
+#membershiphead {    
+    width: 60vw;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    position: relative;
+}
 
 }
 @media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1)
@@ -607,6 +624,12 @@ width:50px;}
         right: 0;
         margin: auto; 
     }
+    #membershiphead {    
+        width: 60vw;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        position: relative;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
@@ -622,16 +645,37 @@ width:50px;}
         min-width: 30rem;
         max-width: 30rem;
     }
+    #space{
+        display: none;}
+        #flowchart
+     {
+         width: 100%;
+         height: 500px;
+         margin-left: -40px;
+     }
+     
 }
 
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 	#space{
         display: none;}
+        #flowchart
+     {
+         width: 100%;
+         height: 300px;
+         margin-left: 0px;
+     }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
 	#space{
         display: none;}
+        #flowchart
+     {
+         width: 100%;
+         height: 500px;
+         margin-left: 0px;
+     }
 }
 
 @media only screen and (min-device-width: 1025px) {
