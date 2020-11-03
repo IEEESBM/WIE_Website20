@@ -109,6 +109,15 @@ button.navbar-toggler {
     padding: 0px 0px 50px 40px;
 }
 
+.cont8 {
+    background-image: url('../img/index/footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* background-position-y: 4.5rem; */
+    height: 57.31px;
+}
+
 .cont4 {
      background-image: url('../img/index/socialfooter.svg');
     background-repeat: no-repeat;
@@ -452,6 +461,7 @@ button.navbar-toggler {
     .blog-post__cta:hover{
         display:none;
     }
+
     .socialiconscol {
         display: none;
     }
@@ -479,7 +489,9 @@ button.navbar-toggler {
         margin: auto; 
     }
 
-    
+    .goalscardtext {
+        margin-top: -1em;
+    }
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
@@ -503,8 +515,6 @@ button.navbar-toggler {
         margin-top: 350%;
         display: none;
     }
-
-   
 
     .blog-post__img img{
 
@@ -547,6 +557,7 @@ text-align: center;
     .blog-post__text {
         text-align: left;
     }
+   
     .socialiconscol {
         display: none;
     }
@@ -573,7 +584,13 @@ text-align: center;
         right: 0;
         margin: auto; 
     }
+
+    .container .cards .face {
+        width: 250px;
+        height: 250px;
+    }
 }
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     .blog-post__cta:hover{
         display:none;
