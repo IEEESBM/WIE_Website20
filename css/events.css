@@ -297,7 +297,7 @@ border-color: black;
     .blog-post__img{
         min-width: 100%;
         max-width: 100%;
-        transform: translate(0,-8rem);
+        transform: translate(0,-15rem);
         min-width: 30rem;
         max-width: 30rem;
     }
