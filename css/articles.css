@@ -270,7 +270,8 @@ button.navbar-toggler {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(to right,rgba(250,1,196,0.8),rgba(75,15,99,0.8));
+    background: linear-gradient(to right,#1668d3,#9a30de);
+    opacity: 0.8;
     box-shadow: 0.5rem 0.5rem 0.3rem 1px rgba(0,0,0,0.05);
     border-radius: 0.8rem;
 }
