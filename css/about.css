@@ -5,7 +5,7 @@ html,body {
     overflow-x: hidden;
     padding: 0px 0px 0px 0px;
     z-index: 0; 
-    font-family: 
+    font-family: ;
 }
 .navbar {
     /* position: absolute; */
@@ -147,7 +147,12 @@ border-color: black;
 
 .cont1{
     position: relative;
-    margin-top: 10vh;
+    margin-top: 2em;
+}
+
+.cont12{
+    position: relative;
+    margin-top: 2em;
 }
 
 .carouselcont{
@@ -359,7 +364,8 @@ border-color: black;
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(to right,rgba(250,1,196,0.8),rgba(75,15,99,0.8));
+    background: linear-gradient(to right,#1668d3,#9a30de);
+    opacity: 0.6;
     box-shadow: 0.5rem 0.5rem 0.3rem 1px rgba(0,0,0,0.05);
     border-radius: 0.8rem;
 }
@@ -458,6 +464,9 @@ border-color: black;
        /* margin-left: 15vw;
         margin-right: -15vw; */
         text-align: center;
+    }
+    .cont1 {
+        margin-top: -4.7em;
     }
     #aboutbg1 {
         display: none;
@@ -710,5 +719,4 @@ border-color: black;
 }
 
 @media only screen and (min-device-width: 1025px) {
-	
 } 

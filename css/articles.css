@@ -324,7 +324,7 @@ button.navbar-toggler {
     top: 0;
     left: 0;
     background: linear-gradient(to right,#1668d3,#9a30de);
-    opacity: 0.8;
+    opacity: 0.6;
     box-shadow: 0.5rem 0.5rem 0.3rem 1px rgba(0,0,0,0.05);
     border-radius: 0.8rem;
 }
