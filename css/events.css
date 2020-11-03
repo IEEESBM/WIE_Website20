@@ -317,7 +317,10 @@ border-color: black;
 	
 }
 
-@media only screen and (min-device-width: 1025px) {
+@media(max-device-width: 400px) {
+    .blog-post{
+        max-width: 100vw;
+    }
 	
 } 
 
@@ -347,8 +350,12 @@ border-color: black;
 }
 
 .socialrow {
-    padding-top: 220px;
+    padding-top: 13.5em;
     /* margin-top: 10rem; */
+}
+
+.socialrowmobile {
+    display: none;
 }
 
 .socialiconscol {
@@ -363,12 +370,17 @@ border-color: black;
 .socialiconscol2 {
     margin-top: 10vh; 
     padding: 1rem;
+    padding-top: 2em;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto; 
+}
+
+.contactdetailscol {
+    margin-top: 1em;
 }
 
 .socialiconscol a {
@@ -391,50 +403,154 @@ border-color: black;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
 }
+/*
+    Multicoloured Hover Variations
+*/
+
 .socialiconscol #social-fb:hover {
-    color: #3B5998;
-  }
-  
-  .socialiconscol #social-tw:hover {
-    color: #4099FF;
-  }
-  
-  .socialiconscol #social-gp:hover {
-    color: #d34836;
-  }
-  
-  .socialiconscol #social-em:hover {
-    color: #f39c12;
-  }
-  
-  .socialiconscol #social-li:hover {
-      color: #f39c12;
-  }
-  
-  .cont8 {
-      background-image: url('../img/index/footer.svg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position-x: center;
-      /* background-position-y: 4.5rem; */
-      height: 57.31px;
-  }
-  
-  .copyrightrow {
-      margin-top: 1em;
-  }
-  #articleshead {
-    width: 50vw;
-    margin-top: 0em;
+  color: #dfb6ff;
 }
-.pin{
-    margin-right: 5px;
+
+.socialiconscol #social-tw:hover {
+  color: #dfb6ff;
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-device-width: 400px) and (orientation: portrait){
-.blog-post {
-    padding: 1.5rem;
-    flex-direction: column;
-    max-width: 100vw;
-    margin: auto;
+
+.socialiconscol #social-gp:hover {
+  color: #dfb6ff;
 }
+
+.socialiconscol #social-em:hover {
+  color: #dfb6ff;
+}
+
+.socialiconscol #social-li:hover {
+    color: #dfb6ff;
+}
+
+.socialiconscolmobile a {
+    color: #f0d1f0;
+}
+
+.socialiconscolmobile .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.socialiconscolmobile .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+.socialiconscolmobile #social-fb:hover {
+  color: #dfb6ff;
+}
+
+.socialiconscolmobile #social-tw:hover {
+  color: #dfb6ff;
+}
+
+.socialiconscolmobile #social-gp:hover {
+  color: #dfb6ff;
+}
+
+.socialiconscolmobile #social-em:hover {
+  color: #dfb6ff;
+}
+
+.socialiconscolmobile #social-li:hover {
+    color: #dfb6ff;
+}
+
+.cont8 {
+    background-image: url('../img/index/footer.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    /* background-position-y: 4.5rem; */
+    height: 57.31px;
+}
+
+.copyrightrow {
+    margin-top: 1em;
+}
+
+.cont9 {
+    margin-top: 10vh;
+}
+
+
+@media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+    .socialiconscol {
+        display: none;
+    }
+
+    #sbmlogo {
+        margin-top: -2.7em;
+    }
+
+    .contactdetailscol {
+        margin-top: -2.7em;
+    }
+
+    .socialrowmobile {
+        display: block;
+        margin-top: 1.7em;
+    }
+
+    .socialiconscol2mobile {
+        padding: 0rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; 
+    }
+
+    .goalscardtext {
+        margin-top: -1em;
+    }
+}
+
+@media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+   
+    .socialiconscol {
+        display: none;
+    }
+
+    #sbmlogo {
+        margin-top: -2.4em;
+    }
+
+    .contactdetailscol {
+        margin-top: -2.4em;
+    }
+
+    .socialrowmobile {
+        display: block;
+        margin-top: 2.5em;
+    }
+
+    .socialiconscol2mobile {
+        padding: 0rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; 
+    }
+
+    
 }
