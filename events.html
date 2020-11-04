@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/animate.css"/>
 
     <link
       rel="stylesheet"
@@ -67,7 +68,7 @@
   <img src="./img/events/eventsbg.svg" id="articlebg1"> 
   <img src="./img/events/eventsbg.svg" id="articlebg2"> 
   </div>
-    <div class="container-sm card-events align-self-center" style="margin-bottom: 5rem; margin-top: -3em; ">
+    <div class="container-sm card-events align-self-center wow fadeInUp" style="margin-bottom: 5rem; margin-top: -3em; ">
       <div class="blog-post col" style="max-width: 600px; margin-right: auto; margin-left: auto;">
           <div class="row justify-content-center">
             <h1 class="blog-post__title">UPCOMING EVENTS</h1>
@@ -167,7 +168,7 @@
       <br />
     </div>-->
     <div class="container-md card-events" style="margin-bottom: 5rem;">
-      <div class="blog-post">
+      <div class="blog-post wow fadeInUp">
         <div class="blog-post__img">
             <img src="./img/nav/wielogo.png" alt="">
         </div>
@@ -312,5 +313,10 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/events.js"></script>
+
+    <script type="text/javascript" src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
   </body>
 </html>
