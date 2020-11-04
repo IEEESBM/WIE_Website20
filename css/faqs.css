@@ -1,15 +1,11 @@
-html,body {
-    padding: 0px 0px 0px 0px;
-    z-index: 0;
-    background-color: white;
-    width: 100%;
-    overflow-x: hidden;
-    position: relative;
-    height: 100%;
-}
-
 * {
     font-family: Roboto;
+}
+
+body {
+    overflow-x: hidden;
+    padding: 0px 0px 0px 0px;
+    z-index: 0; 
 }
 
 .navbar {
@@ -33,123 +29,125 @@ html,body {
 border-color: black;
 } 
 
-.conthead {
-    margin-top: -25em;
-}
-
-#articleshead {
+#faqshead {
     width: 50%;
-    margin-top:17em;
+    margin-top: 17em;
     margin-bottom: -5em;
     z-index: 1;
 }
 
-    .cont{
-        z-index: 2;
-        display: block;
-        padding-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
-    } 
-    /* Style the element that is used to open and close the accordion class */
-    p.accordion {
-        background-color:#752F8B;
-        color:white;
-        cursor: pointer;
-        padding:30px;
-        margin-top: 0px;
-        width: 100%;
-        text-align: left;
-        font-family: 'Quicksand',sans-serif;
-        font-weight: 700;
-        font-size:1.2em;
-        border-radius: 10px;
-        outline: none;
-        transition: 0.4s;
-        margin-bottom:0px;
-        align-items: center;
-    }
-    
-    /* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-    p.accordion.active, p.accordion:hover {
-        background-color: #BC14B8;
-    }
-    
-    /* Unicode character for "plus" sign (+) */
-    p.accordion:after {
-        content: '\2795'; 
-        font-size: 14px;
-        text-shadow:0 0 0 white;
-        float: right;
-        margin-left: 5px;
-    }
-    
-    /* Unicode character for "minus" sign (-) */
-    p.accordion.active:after {
-        content: "\2796";
-        color:white
-    }
-    
-    /* Style the element that is used for the panel class */
-    
-    div.panel {
-        padding: 0 18px;
-        margin: 10px;
-        background-color: white;
-        max-height: 0;
-        overflow: hidden;
-        transition: 0.4s ease-in-out;
-        width: 100%;
-        opacity: 0;
-        font-weight: 400;
-        font-size:1.0em;
-        margin-bottom:10px;
-    }
-    
-    div.panel.show {
-        opacity: 1;
-        width: 100%;
-        max-height: 100%; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
-    }
+.conthead {
+    margin-top: -25em;
+}
+
+
+.cont{
+    z-index: 2;
+    display: block;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+} 
+/* Style the element that is used to open and close the accordion class */
+p.accordion {
+    background-color:#752F8B;
+    color:white;
+    cursor: pointer;
+    padding:30px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: left;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 700;
+    font-size:1.2em;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom:0px;
+    align-items: center;
+}
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+p.accordion.active, p.accordion:hover {
+    background-color: #BC14B8;
+}
+
+/* Unicode character for "plus" sign (+) */
+p.accordion:after {
+    content: '\2795'; 
+    font-size: 14px;
+    text-shadow:0 0 0 white;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.accordion.active:after {
+    content: "\2796";
+    color:white
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+    padding: 0 18px;
+    margin: 10px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    width: 100%;
+    opacity: 0;
+    font-weight: 400;
+    font-size:1.0em;
+    margin-bottom:10px;
+}
+
+div.panel.show {
+    opacity: 1;
+    width: 100%;
+    max-height: 100%; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
 
 .diag-card{
-    min-width: 400px;
-    max-width: 60%;
-    height: auto;
-    width: 80%;
-    z-index: -5;
-    position: relative;
+min-width: 400px;
+max-width: 60%;
+height: auto;
+width: 80%;
+z-index: -5;
+position: relative;
 }
 .bg{
-    position: relative; 
-    top:-390px; 
-    right: -565px; 
-    width: 900px;
+position: relative; 
+top:-390px; 
+right: -565px; 
+width: 900px;
 }
 
-#articlebg1 {
-    z-index: -1;
-    height: 70vh;
-    transform: rotate(10deg);
-    position: absolute;
-    margin-top: -5em;
-    margin-left: -6em;
-    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
-    filter:alpha(opacity=50); /* for <= IE 8 */
+#faqsbg1 {
+z-index: -1;
+height: 70vh;
+transform: rotate(10deg);
+position: absolute;
+margin-top: -5em;
+margin-left: -6em;
+opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+filter:alpha(opacity=50); /* for <= IE 8 */
 }
 
-#articlebg2 {
-    z-index: -1;
-    height: 70vh;
-    transform: rotate(-10deg);
-    position: absolute;
-    margin-top: 25em;
-    right: -5em;
-    opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
-    filter:alpha(opacity=50); /* for <= IE 8 */
+#faqsbg2 {
+z-index: -1;
+height: 70vh;
+transform: rotate(-10deg);
+position: absolute;
+margin-top: 25em;
+right: -5em;
+opacity: 0.5; /* Firefox, Chrome, Safari, Opera, IE >= 9 (preview) */
+filter:alpha(opacity=50); /* for <= IE 8 */
 }
 
+/* footer */
 
 .cont7 {
     background-image: url('../img/index/socialfooter1.svg');
@@ -160,7 +158,7 @@ border-color: black;
     height: 365.31px;
 }
 
-  #sbmlogo {
+#sbmlogo {
     position: absolute;
     top: 0;
     bottom: 1;
@@ -298,11 +296,7 @@ border-color: black;
     color: #dfb6ff;
 }
 
-  .copyrightrow {
-    margin-top: 1em;
-}
-
-.footer {
+.cont8 {
     background-image: url('../img/index/footer.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -311,20 +305,29 @@ border-color: black;
     height: 57.31px;
 }
 
+.copyrightrow {
+    margin-top: 1em;
+}
+
+.cont9 {
+    margin-top: 10vh;
+}
+
+
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-    #articleshead {
+    #faqshead {
         width: 70%;
-        margin-top: 70%;
+        margin-top: 100%;
         margin-bottom: 0%;   
     }
 
-    #articlebg1 {
+    #faqsbg1 {
        height: 45vh;
         margin-top: 5em;
         display: none;
     }
     
-    #articlebg2 {
+    #faqsbg2 {
         height: 45vh;
         margin-top: 60em;
         display: none;
@@ -333,9 +336,8 @@ border-color: black;
     .cont{
         width: 100%;
     } 
-
-    .socialiconscol {
-        display: block;
+	.socialiconscol {
+        display: none;
     }
 
     #sbmlogo {
@@ -361,25 +363,21 @@ border-color: black;
         margin: auto; 
     }
 
-    .goalscardtext {
-        margin-top: -1em;
-    }
 }
 
-
 @media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
-    #articleshead {
+    #faqshead {
         width: 70%;
         margin-top: 60%;
         margin-bottom: -10%;   
     }
 
-    #articlebg1 {
+    #faqsbg1 {
        height: 45vh;
         display: none;
     }
     
-    #articlebg2 {
+    #faqsbg2 {
         height: 45vh;
         margin-top: 60em;
         display: none;
@@ -392,53 +390,48 @@ border-color: black;
     .col-12{
         position: relative;
         margin-top: 0px
-    
+    }    
+    .socialiconscol {
+        display: none;
+    }
 
+    #sbmlogo {
+        margin-top: -2.4em;
+    }
+
+    .contactdetailscol {
+        margin-top: -2.4em;
+    }
+
+    .socialrowmobile {
+        display: block;
+        margin-top: 2.5em;
+    }
+
+    .socialiconscol2mobile {
+        padding: 0rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; 
+    }
 }
-.socialiconscol {
-    display: none;
-}
-
-#sbmlogo {
-    margin-top: -2.4em;
-}
-
-.contactdetailscol {
-    margin-top: -2.4em;
-}
-
-.socialrowmobile {
-    display: block;
-    margin-top: 2.5em;
-}
-
-.socialiconscol2mobile {
-    padding: 0rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto; 
-}
-
-
-}
-
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-    #articleshead {
+    #faqshead {
         width: 70%;
         margin-top: 25%;
         /* margin-bottom: -10%;    */
     }
-    #articlebg1 {
+    #faqsbg1 {
         height: 45vh;
         margin-top: 10em;
          /* display: none; */
      }
      
-     #articlebg2 {
+     #faqsbg2 {
          height: 35vh;
          margin-top: 40em;
          /* display: none; */
@@ -447,6 +440,5 @@ border-color: black;
     .cont{
         width: 125%;
     } 
-        
-
 }
+
