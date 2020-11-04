@@ -48,6 +48,7 @@ border-color: black;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+    margin-bottom: 4.5em;
 } 
 /* Style the element that is used to open and close the accordion class */
 p.accordion {
@@ -317,7 +318,7 @@ filter:alpha(opacity=50); /* for <= IE 8 */
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     #faqshead {
         width: 70%;
-        margin-top: 100%;
+        margin-top: 120%;
         margin-bottom: 0%;   
     }
 
