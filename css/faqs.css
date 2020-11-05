@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 * {
-    font-family: Roboto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -59,7 +62,6 @@ p.accordion {
     margin-top: 0px;
     width: 100%;
     text-align: left;
-    font-family: 'Quicksand',sans-serif;
     font-weight: 700;
     font-size:1.2em;
     border-radius: 10px;

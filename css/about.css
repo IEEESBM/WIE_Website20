@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 * {
-    font-family: Roboto;
+    font-family: 'Open Sans', sans-serif;
 }
+
 html,body {
     overflow-x: hidden;
     padding: 0px 0px 0px 0px;
     z-index: 0; 
-    font-family: ;
 }
 .navbar {
     /* position: absolute; */
