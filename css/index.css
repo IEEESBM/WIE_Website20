@@ -536,6 +536,10 @@ border-color: black;
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .navbar-nav li {
+        margin-left: 1em;
+    }
+
 	.blog-post{
         padding: 1.5rem;
         flex-direction: column;
@@ -624,6 +628,7 @@ border-color: black;
     .goalscardtext {
         margin-top: -1em;
     }
+
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
