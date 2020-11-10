@@ -9,7 +9,7 @@ $(document).ready(function(){
           $(".nv-brtop").css("display" , "none");
           $(".navbar-brand").css("margin-top" , "auto");
           $(".navbar-nav").css("margin-top" , "auto");
-          $(".navbar-toggler").css("margin-top" , "0px");
+          $(".navbar-toggler").css("margin-bottom" , "-72px");
         }
   
         else{
@@ -21,7 +21,8 @@ $(document).ready(function(){
             $(".nv-brtop").css("display" , "inline");
             $(".navbar-brand").css("margin-top" , "-4.5px");
             $(".navbar-nav").css("margin-top" , "-35px");
-            $(".navbar-toggler").css("margin-top" , "-32px");
+            // $(".navbar-toggler").css("margin-top" , "-72px");
+            $(".navbar-toggler").css("margin-bottom" , "19.5px");
         }
     })
 })
