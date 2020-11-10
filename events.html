@@ -1,321 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./css/animate.css"/>
-
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css"
-      integrity="sha512-sopmFEmRVsWt542K+yzH3FQ1KJfdosOJG+bGLs9ZJT07b/3gUxRA9ICuJg2JtoZ9WeknAUuwJ0ggnmrV1YL6kQ=="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/events.css" />
-
-    <link rel="icon" href="./img/index/wielogo.png" type="image/x-icon"/>
-    <title>Events - IEEE WIE MIT</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top" id="navcolormobile">  <!--Add fixed-top class in this line for sticky navbar-->
-      <div class="container-fluid">
-          <!-- <span class="navbar-text">
-              <a role="button" id="loginButton">
-                  <span class="fa fa-sign-in"> Login </span>
-              </a>
-          </span> -->
-  
-          <a style="margin-top: -8px;" class="navbar-brand mr-auto" href="./index.html"><img src="./img/index/wielogo.png" class="navlogo" height="90" width="90" alt=""></a>
-
-            <button class="navbar-toggler ml-auto mr-2 custom-toggler" style="margin-top: -32px;" onclick="navMobile()" type="button" data-toggle="collapse" data-target="#Navbar">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./css/animate.css"/>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+            />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous"
+            />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css"
+            integrity="sha512-sopmFEmRVsWt542K+yzH3FQ1KJfdosOJG+bGLs9ZJT07b/3gUxRA9ICuJg2JtoZ9WeknAUuwJ0ggnmrV1YL6kQ=="
+            crossorigin="anonymous"
+            />
+        <link rel="stylesheet" href="./css/events.css" />
+        <link rel="icon" href="./img/index/wielogo.png" type="image/x-icon"/>
+        <title>Events - IEEE WIE MIT</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top" id="navcolormobile">
+            <!--Add fixed-top class in this line for sticky navbar-->
+            <div class="container-fluid">
+                <!-- <span class="navbar-text">
+                    <a role="button" id="loginButton">
+                        <span class="fa fa-sign-in"> Login </span>
+                    </a>
+                    </span> -->
+                <a style="margin-top: -8px;" class="navbar-brand mr-auto" href="./index.html"><img src="./img/index/wielogo.png" class="navlogo" height="90" width="90" alt=""></a>
+                <button class="navbar-toggler ml-auto mr-2 custom-toggler" style="margin-top: -32px;" onclick="navMobile()" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-
-            
-            <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav ml-auto" style="margin-top: -32px;">
-                <li class="nav-item navtop"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./index.html">Home</a></li>
-                <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./about.html">About</a></li>
-                <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./membership.html">Membership</a></li>
-                <!-- <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./events.html">Events</a></li> -->
-                <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./achievements.html">Achievements</a></li>
-                <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./articles.html">Articles</a></li>
-                <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./faqs.html">FAQs</a></li>
-              </ul>                
-          </div>                
-      </div>
-  </nav>
-  <div class="container-fluid">
-    <div class="row justify-content-center text-center">
-        <div class="col-12">
-            <img src="./img/events/events.svg" id="articleshead" style="vertical-align: middle; width: 35%; min-width: 200px;">
-        </div>
-    </div>
-  </div>
-  <div style="overflow-x: hidden;">
-  <img src="./img/events/eventsbg.svg" id="articlebg1"> 
-  <img src="./img/events/eventsbg.svg" id="articlebg2"> 
-  </div>
-    <div class="container-sm card-events align-self-center wow fadeInUp" style="margin-bottom: 5rem; margin-top: -3em; ">
-      <div class="blog-post col" style="max-width: 600px; margin-right: auto; margin-left: auto;">
-          <div class="row justify-content-center">
-            <h1 class="blog-post__title">UPCOMING EVENTS</h1>
-          <br/>
-            <div class="date card-text" style="margin-top: 15px; margin-bottom: 10px; ">
-              <i class="fa fa-thumb-tack text-danger pin" aria-hidden="true"></i> 11/11/2529 - on something<br>
-              <i class="fa fa-thumb-tack text-danger pin" aria-hidden="true"></i> 53/79/9529 - Workshop on something<br>
-              <i class="fa fa-thumb-tack text-danger pin" aria-hidden="true"></i> 53/79/9529 - Workshop on sofncnlakmslething<br>
+                </button>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-auto" style="margin-top: -32px;">
+                        <li class="nav-item navtop"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./about.html">About</a></li>
+                        <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./membership.html">Membership</a></li>
+                        <!-- <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./events.html">Events</a></li> -->
+                        <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./achievements.html">Achievements</a></li>
+                        <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./articles.html">Articles</a></li>
+                        <li class="nav-item"><a style="font-size: 1.3rem; color: black;" class="nav-link" href="./faqs.html">FAQs</a></li>
+                    </ul>
+                </div>
             </div>
-            <br/>
-          <a href="#" class="blog-post__cta" style="margin-top: 10px; padding: 8px;"> Link to Register </a>
+        </nav>
+        <div class="container-fluid">
+            <div class="row justify-content-center text-center">
+                <div class="col-12">
+                    <img src="./img/events/events.svg" id="articleshead" style="vertical-align: middle; width: 35%; min-width: 200px;">
+                </div>
+            </div>
         </div>
-    </div>
-  </div>
-    </div>
-
-
-    <!--<div class="container-fuild slideshow">
-      <br />
-      <h2 style="text-align: center">IMPORTANT DAYS</h2>
-      <br />
-      <div class="container-lg">
-        <div
-          id="carouselExampleCaptions"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleCaptions"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="https://picsum.photos/1600/900"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
+        <div style="overflow-x: hidden;">
+            <img src="./img/events/eventsbg.svg" id="articlebg1"> 
+            <img src="./img/events/eventsbg.svg" id="articlebg2"> 
+        </div>
+        <div class="container-sm card-events align-self-center wow fadeInUp" style="margin-bottom: 5rem; margin-top: -3em; ">
+            <div class="blog-post col" style="max-width: 600px; margin-right: auto; margin-left: auto;">
+                <div class="row justify-content-center">
+                    <h1 class="blog-post__title">UPCOMING EVENTS</h1>
+                    <br/>
+                    <div class="date card-text" style="margin-top: 15px; margin-bottom: 10px; ">
+                        <i class="fa fa-thumb-tack text-danger pin" aria-hidden="true"></i> 11/11/2529 - on something<br>
+                        <i class="fa fa-thumb-tack text-danger pin" aria-hidden="true"></i> 53/79/9529 - Workshop on something<br>
+                        <i class="fa fa-thumb-tack text-danger pin" aria-hidden="true"></i> 53/79/9529 - Workshop on sofncnlakmslething<br>
+                    </div>
+                    <br/>
+                    <a href="#" class="blog-post__cta" style="margin-top: 10px; padding: 8px;"> Link to Register </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--<div class="container-fuild slideshow">
+            <br />
+            <h2 style="text-align: center">IMPORTANT DAYS</h2>
+            <br />
+            <div class="container-lg">
+              <div
+                id="carouselExampleCaptions"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#carouselExampleCaptions"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="https://picsum.photos/1600/900"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>
+                        Nulla vitae elit libero, a pharetra augue mollis interdum.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://picsum.photos/1600/900"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://picsum.photos/1600/900"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>
+                        Praesent commodo cursus magna, vel scelerisque nisl
+                        consectetur.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleCaptions"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleCaptions"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
             </div>
-            <div class="carousel-item">
-              <img
-                src="https://picsum.photos/1600/900"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="https://picsum.photos/1600/900"
-                class="d-block w-100"
-                alt="..."
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </div>
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleCaptions"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleCaptions"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-      <br />
-    </div>-->
-    <div class="container-md card-events" style="margin-bottom: 5rem;">
-      <div class="blog-post wow fadeInUp">
-        <div class="blog-post__img">
-            <img src="./img/index/wielogo.png" alt="">
-        </div>
-        <div class="blog-post__infoothers">
-            <div class="blog-post__date">
-                <!--<span>Sunday</span>-->
-                <span>Sep 6th 2020</span>
-            </div>
-            <h1 class="blog-podt__title" style="word-break: break-word;">WIE <wbr><!--AFFINITY GROUP--> INAUGURATION</h1>
-            <p class="blog-post__text">
-              The WIE Affinity Group Inaugural session was conducted on 6th September,2020 at 5pm through the online mode using Cisco Webex meeting. The Chief Guests invited for this ceremony were Mrs Sadhana Attavar, Chair of WIE Bangalore section and Mr Puneet Kumar Mishra , Chairperson of IEEE Bangalore Section.The guest of honour was Mrs Jayanthi Prabhu and we had Dr Vinod V Thomas, Registrar Evaluation MAHE preside over the session .<br/>
-              The chief guest Mrs Sadhana Attavar inaugurated the affinity group and congratulated us. She  then addressed everyone and gave a brief talk about WIE, about its establishment and its vision and goals. She told us about the working, various competitions and tasks undertaken by WIE and motivated us all to work for this wonderful chapter. 
-              
-            </p>
-          <!--<a href="#" class="blog-post__cta">Read more</a>-->
-        </div>
-    </div>
-  </div>
-  <!--<div class="container-lg card-events">
-      <div class="blog-post">
-        <div class="blog-post__img">
-            <img src="./img/nav/wielogo.png" alt="">
-        </div>
-        <div class="blog-post__info">
-            <div class="blog-post__date">
-                <span>Sunday</span>
-                <span>oct 27 2020</span>
-            </div>
-            <h1 class="blog-podt__title">WIE IEEE</h1>
-            <p class="blog-post__text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident porro corporis asperiores 
-                excepturi ipsum dolorum, officia, quod quia vel optio nam impedit est iure maxime odit nobis.
-                 Consequuntur, optio eum!
-            </p>
-            <a href="#" class="blog-post__cta">Read more</a>
-        </div>
-    </div>
-    </div>
-    <div class="container-lg card-events">
-      <div class="blog-post">
-        <div class="blog-post__img">
-            <img src="./img/nav/wielogo.png" alt="">
-        </div>
-        <div class="blog-post__info">
-            <div class="blog-post__date">
-                <span>Sunday</span>
-                <span>oct 27 2020</span>
-            </div>
-            <h1 class="blog-podt__title">WIE IEEE</h1>
-            <p class="blog-post__text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident porro corporis asperiores 
-                excepturi ipsum dolorum, officia, quod quia vel optio nam impedit est iure maxime odit nobis.
-                 Consequuntur, optio eum!
-            </p>
-            <a href="#" class="blog-post__cta">Read more</a>
-         </div>
-    </div>-->
-    </div>
-  <!-- <div class="container-fluid">
-    <div class="row justify-content-center text-center contactusrow">
-        <div class="col-12 wow ">
-            CONTACT US
-        </div>
-    </div>
-  </div> -->
-  <div class="container-fluid cont7">
-    <div class="row justify-content-center text-center socialrow wow pulse">
-        <div class="col-6 col-md-4">
-            <a href="https://www.ieeemanipal.com" target="_blank"><img src="./img/index/ieeeLogo_white.png" id="sbmlogo"></a>
-        </div>
-        <div class="d-none d-sm-none d-md-block d-lg-block col-md-4 socialiconscol">
-            <div class="container-fluid">
-                <div class="row justify-content-center text-center socialiconscol2">
-                    <a href="https://www.facebook.com/ieeesbmanipal" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-                    <a href="https://www.instagram.com/ieeesbm/" target="_blank"><i id="social-tw" class="fa fa-instagram fa-3x social"></i></a>
-                    <a href="https://www.linkedin.com/company/ieee-student-branch-manipal/" target="_blank"i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
-                    <a href="mailto:contactus.ieeemanipal@gmail.com" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            <br />
+            </div>-->
+        <div class="container-md card-events" style="margin-bottom: 5rem;">
+            <div class="blog-post wow fadeInUp">
+                <div class="blog-post__img">
+                    <img src="./img/index/wielogo.png" alt="">
+                </div>
+                <div class="blog-post__infoothers">
+                    <div class="blog-post__date">
+                        <!--<span>Sunday</span>-->
+                        <span>Sep 6th 2020</span>
+                    </div>
+                    <h1 class="blog-podt__title" style="word-break: break-word;">
+                        WIE <wbr><!--AFFINITY GROUP--> INAUGURATION
+                    </h1>
+                    <p class="blog-post__text">
+                        The WIE Affinity Group Inaugural session was conducted on 6th September,2020 at 5pm through the online mode using Cisco Webex meeting. The Chief Guests invited for this ceremony were Mrs Sadhana Attavar, Chair of WIE Bangalore section and Mr Puneet Kumar Mishra , Chairperson of IEEE Bangalore Section.The guest of honour was Mrs Jayanthi Prabhu and we had Dr Vinod V Thomas, Registrar Evaluation MAHE preside over the session .<br/>
+                        The chief guest Mrs Sadhana Attavar inaugurated the affinity group and congratulated us. She  then addressed everyone and gave a brief talk about WIE, about its establishment and its vision and goals. She told us about the working, various competitions and tasks undertaken by WIE and motivated us all to work for this wonderful chapter. 
+                    </p>
+                    <!--<a href="#" class="blog-post__cta">Read more</a>-->
                 </div>
             </div>
         </div>
-        <div class="col-6 col-md-4 contactdetailscol">
-            <div class="container-fluid" style="margin-top: 1em;">
-                <div class="row justify-content-center text-center">
-                    <span style="color: white;">
-                        <i class="fa fa-mobile" aria-hidden="true"></i> 
-                        Navya: +919616214999
-                    </span>
+        <!-- <div class="container-fluid">
+            <div class="row justify-content-center text-center contactusrow">
+                <div class="col-12 wow ">
+                    CONTACT US
                 </div>
-                <!-- <div class="row justify-content-center text-center">
-                    <span style="color: white; white-space: nowrap;">
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i> 
-                        wie.ieeesbm@gmail.com
-                    </span>
-                </div> -->
-                <div class="row justify-content-center text-center">
-                    <span style="margin-top: 0.5em; color: white;">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i> 
-                        MIT, Manipal - 576104, Karnataka
-                    </span>
+            </div>
+            </div> -->
+        <div class="container-fluid cont7">
+            <div class="row justify-content-center text-center socialrow wow pulse">
+                <div class="col-6 col-md-4">
+                    <a href="https://www.ieeemanipal.com" target="_blank"><img src="./img/index/ieeeLogo_white.png" id="sbmlogo"></a>
+                </div>
+                <div class="d-none d-sm-none d-md-block d-lg-block col-md-4 socialiconscol">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center text-center socialiconscol2">
+                            <a href="https://www.facebook.com/ieeesbmanipal" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                            <a href="https://www.instagram.com/ieeesbm/" target="_blank"><i id="social-tw" class="fa fa-instagram fa-3x social"></i></a>
+                            <a href="https://www.linkedin.com/company/ieee-student-branch-manipal/" target="_blank"i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
+                            <a href="mailto:contactus.ieeemanipal@gmail.com" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 contactdetailscol">
+                    <div class="container-fluid" style="margin-top: 1em;">
+                        <div class="row justify-content-center text-center">
+                            <span style="color: white;">
+                            <i class="fa fa-mobile" aria-hidden="true"></i> 
+                            Navya: +919616214999
+                            </span>
+                        </div>
+                        <!-- <div class="row justify-content-center text-center">
+                            <span style="color: white; white-space: nowrap;">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i> 
+                                wie.ieeesbm@gmail.com
+                            </span>
+                            </div> -->
+                        <div class="row justify-content-center text-center">
+                            <span style="margin-top: 0.5em; color: white;">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> 
+                            MIT, Manipal - 576104, Karnataka
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center socialrowmobile wow pulse">
+                <div class="col-12 socialiconscolmobile">
+                    <div class="container-fluid">
+                        <div class="row justify-content-center text-center socialiconscol2mobile">
+                            <a href="https://www.facebook.com/ieeesbmanipal" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                            <a href="https://www.instagram.com/ieeesbm/" target="_blank"><i id="social-tw" class="fa fa-instagram fa-3x social"></i></a>
+                            <a href="https://www.linkedin.com/company/ieee-student-branch-manipal/" target="_blank"i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
+                            <a href="mailto:contactus.ieeemanipal@gmail.com" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row justify-content-center text-center socialrowmobile wow pulse">
-        <div class="col-12 socialiconscolmobile">
-            <div class="container-fluid">
-                <div class="row justify-content-center text-center socialiconscol2mobile">
-                    <a href="https://www.facebook.com/ieeesbmanipal" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-                    <a href="https://www.instagram.com/ieeesbm/" target="_blank"><i id="social-tw" class="fa fa-instagram fa-3x social"></i></a>
-                    <a href="https://www.linkedin.com/company/ieee-student-branch-manipal/" target="_blank"i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
-                    <a href="mailto:contactus.ieeemanipal@gmail.com" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        <div class="container-fluid cont8">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 copyrightrow">
+                    <span style="color: white; padding-top: 2rem;"><i class="fa fa-copyright" aria-hidden="true"></i> 2020 IEEE Student Branch Manipal</span>
                 </div>
             </div>
         </div>
-    </div>
-  </div>
-
-
-    <div class="container-fluid cont8">
-        <div class="row justify-content-center text-center">
-            <div class="col-12 copyrightrow">
-                <span style="color: white; padding-top: 2rem;"><i class="fa fa-copyright" aria-hidden="true"></i> 2020 IEEE Student Branch Manipal</span>
-            </div>
-        </div>
-    </div>
-
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./js/events.js"></script>
-
-    <script type="text/javascript" src="./js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-  </body>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+            ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"
+            ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"
+            ></script>
+        <script src="./js/events.js"></script>
+        <script type="text/javascript" src="./js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+    </body>
 </html>
