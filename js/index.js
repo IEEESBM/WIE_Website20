@@ -5,6 +5,8 @@ $(document).ready(function(){
           $(".navbar-dark").css("background" , "#F0D1F0");
           $(".navlogo").css("height" , "50");
           $(".navlogo").css("width" , "50");
+          $(".nv-br").css("display" , "inline");
+          $(".nv-brtop").css("display" , "none");
           $(".navbar-brand").css("margin-top" , "auto");
           $(".navbar-nav").css("margin-top" , "auto");
           $(".navbar-toggler").css("margin-top" , "0px");
@@ -15,8 +17,10 @@ $(document).ready(function(){
             $(".navbar-dark").css("background", "none"); 
             $(".navlogo").css("height" , "90");
             $(".navlogo").css("width" , "90");
+            $(".nv-br").css("display" , "none");
+            $(".nv-brtop").css("display" , "inline");
             $(".navbar-brand").css("margin-top" , "-4.5px");
-            $(".navbar-nav").css("margin-top" , "-32px");
+            $(".navbar-nav").css("margin-top" , "-35px");
             $(".navbar-toggler").css("margin-top" , "-32px");
         }
     })
