@@ -536,6 +536,15 @@ border-color: black;
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .nv-brtop img{
+        width: 19% !important;
+        height: 19% !important;
+    }
+
+    .navbar-toggler {
+        margin-top: -72px !important;
+    }
+    
     .navbar-nav li {
         margin-left: 1em;
     }
