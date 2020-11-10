@@ -417,6 +417,14 @@ border-color: black;
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .navbar-nav li {
+        margin-left: 1em;
+    }
+
+    .navtop {
+        margin-top: 1.5em;
+    }
+    
 	.blog-post{
         /*padding: 1.5rem;*/
         flex-direction: column;

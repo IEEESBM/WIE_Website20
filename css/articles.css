@@ -387,7 +387,15 @@ button.navbar-toggler {
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
-	.blog-post{
+    .navbar-nav li {
+        margin-left: 1em;
+    }
+
+    .navtop {
+        margin-top: 1.5em;
+    }
+    
+    .blog-post{
         padding: 2.5rem;
         flex-direction: column;
         max-width: 50vw;
