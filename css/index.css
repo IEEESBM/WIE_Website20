@@ -278,6 +278,7 @@ border-color: black;
 }
 
 .cont7 {
+    margin-top: -6em;
     background-image: url('../img/index/socialfooter1.svg');
     background-repeat: no-repeat;
     background-size: cover;
