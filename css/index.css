@@ -18,7 +18,7 @@ body {
 }
 
 .nav-item:hover {
-    transform: translate3d(2px,2px,2px);
+    /*transform: translate3d(2px,2px,2px);*/
     font-size: xx-large;
     /* text-shadow: 0.5px 0.5px 0.5px #acacac; */
     text-decoration: underline;
