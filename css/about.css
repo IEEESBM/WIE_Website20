@@ -9,7 +9,9 @@ html,body {
     overflow-x: hidden;
     padding: 0px 0px 0px 0px;
     z-index: 0; 
+    scroll-behavior: smooth;
 }
+
 .navbar {
     /* position: absolute; */
     font-weight: 700;
@@ -47,8 +49,8 @@ border-color: black;
     z-index: -1;
     height: 70vh;
     position: absolute;
-    margin-top: -25em;
-    right: -6em;
+    margin-top: -20em;
+    right: -8em;
     opacity: 0.5;
     filter:alpha(opacity=50);
 }
@@ -467,7 +469,7 @@ border-color: black;
         width: 70vw;
         /* margin-left: -10vw;
         margin-right: -10vw; */
-        margin-bottom: 15vw;
+        margin-bottom: 5vw;
         align-items: center;
     }
     .contcard h4{
@@ -588,13 +590,13 @@ border-color: black;
         align-items: center;
     }
     .contcard h4{
-        font-size: 4vw;
+        font-size: 3.7vw;
     }
     .contcard h5{
-        font-size: 3.5vw;
+        font-size: 3.2vw;
     }
     .contcard p{
-        font-size: 3vw;
+        font-size: 2.7vw;
     }
     .heading {
         font-size: 6vw;
@@ -622,7 +624,7 @@ border-color: black;
         height: 100vw; 
     }
     .carouselcont{
-        padding: 100px 32px 0px 0px; 
+        padding: 150px 32px 0px 0px; 
     }
     .socialiconscol {
         display: none;
@@ -738,7 +740,7 @@ border-color: black;
         margin-top: 10vw;
     }
 
-
+}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
 	
 }
@@ -746,3 +748,120 @@ border-color: black;
 @media only screen and (min-device-width: 1025px) {
 
 } 
+@media only screen and (min-device-height: 768px) and (max-device-width: 1025px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .socialiconscol {
+        display: none !important;
+    }
+    .card {
+        border-radius: 1.2rem;
+    }
+    .card img{
+        border-top-left-radius: 1.2rem;
+        border-top-right-radius: 1.2rem;
+    }
+    .contcard h4{
+        font-size: 3.7vw;
+    }
+    .contcard h5{
+        font-size: 3.2vw;
+    }
+    .contcard p{
+        font-size: 2.7vw;
+    }
+    .cont1 .heading {
+        margin-top: 2em;
+        margin-bottom: -1em;
+    }
+    .carouselcont{
+        padding: 200px 32px 0px 0px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+    #aboutbg1 {
+        height: 50vh;
+        margin-top: 16em;
+        margin-left: -6em;
+    }
+    #aboutbg2 {
+        height: 50vh;
+        margin-top: -15em;
+        right: -8em;
+    }
+    #aboutbg3 {
+        height: 50vh;
+        margin-top: 12em;
+        margin-left: -12em;
+    }
+    #aboutbg4 {
+        height: 50vh;
+        margin-top: -8em;
+        margin-left: -6em;
+    }
+    #aboutbg5 {
+        height: 50vh;
+        margin-top: -15em;
+        right: -6em;
+    }
+    .carouselcont{
+        padding: 200px 32px 0px 0px;
+    }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    #abouthead {
+        width: 60vw;
+        margin-top: 4em;
+    }
+    #aboutbg1 {
+        display: none;
+    }
+    #aboutbg2 {
+        display: none;
+    }
+    #aboutbg3 {
+        display: none;
+    }
+    #aboutbg4 {
+        display: none;
+    }
+    #aboutbg5 {
+        display: none;
+    }
+    .carouselcont{
+        padding: 250px 32px 0px 0px; 
+    }
+    
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #abouthead {
+        width: 40vw;
+        margin-top: 4em;
+    }
+    #aboutbg1 {
+        height: 50vh;
+        margin-top: 14em;
+        margin-left: -6em;
+    }
+    #aboutbg2 {
+        height: 50vh;
+        margin-top: -25em;
+        right: -12em;
+    }
+    #aboutbg3 {
+        height: 50vh;
+        margin-top: 10em;
+        margin-left: -18em;
+    }
+    #aboutbg4 {
+        height: 50vh;
+        margin-top: -5em;
+        margin-left: -8em;
+    }
+    #aboutbg5 {
+        height: 50vh;
+        margin-top: -20em;
+        right: -12em;
+    }
+    .carouselcont{
+        padding: 190px 32px 0px 0px; 
+    }
+}
