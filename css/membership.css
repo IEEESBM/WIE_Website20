@@ -202,7 +202,7 @@ border-color: black;
     text-transform: uppercase;
     font-size: 1rem;
     color: #ffffff;
-    background-image: linear-gradient(to right, #fa01c4 0%, #4b0f63 100%);
+    background-image: linear-gradient(to right, #1668d3 0%, #9a30de 100%);
     border-radius: 0.8rem;
     text-decoration: none;
 }
@@ -491,7 +491,7 @@ border-color: black;
         /* min-width: 30rem; */
         max-width: 50vw;
         margin-left: 0em;
-        background-color: red;
+       
         /* linear-gradient(to right,#1668d3,#9a30de) */
     }
     .blog-post__info {
@@ -502,6 +502,8 @@ border-color: black;
         background: none;
         box-shadow: 0.5rem 0.5rem 0.3rem 1px rgba(0,0,0,0.05);
         border-radius: 0.8rem;
+        background-image: linear-gradient(to right, #1668d3 0%, #9a30de 100%);
+        opacity: 0.6;
     }
     img#membership1{
         display: none;
