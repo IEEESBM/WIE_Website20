@@ -47,8 +47,8 @@ border-color: black;
     z-index: -1;
     height: 70vh;
     position: absolute;
-    margin-top: -25em;
-    right: -6em;
+    margin-top: -20em;
+    right: -8em;
     opacity: 0.5;
     filter:alpha(opacity=50);
 }
@@ -467,7 +467,7 @@ border-color: black;
         width: 70vw;
         /* margin-left: -10vw;
         margin-right: -10vw; */
-        margin-bottom: 15vw;
+        margin-bottom: 5vw;
         align-items: center;
     }
     .contcard h4{
@@ -746,3 +746,32 @@ border-color: black;
 @media only screen and (min-device-width: 1025px) {
 
 } 
+@media only screen and (max-device-width: 1025px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .socialiconscol {
+        display: none !important;
+    }
+    .card {
+        border-radius: 1.2rem;
+    }
+    .card img{
+        border-top-left-radius: 1.2rem;
+        border-top-right-radius: 1.2rem;
+    }
+    .contcard h4{
+        font-size: 3.7vw;
+    }
+    .contcard h5{
+        font-size: 3.2vw;
+    }
+    .contcard p{
+        font-size: 2.7vw;
+    }
+    .cont1 .heading {
+        margin-top: 2em;
+        margin-bottom: -1em;
+    }
+    .carouselcont{
+        padding: 200px 32px 0px 0px;
+    }
+}
+}
