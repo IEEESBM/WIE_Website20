@@ -5,9 +5,9 @@ $(document).ready(function(){
             $(".navbar-dark").css("background" , "#F0D1F0");
             $(".navlogo").css("height" , "50");
             $(".navlogo").css("width" , "50");
-            $(".navbar-brand").css("margin-top" , "auto");
+            $(".navbar-brand").css("margin-top" , "-10px");
             $(".navbar-nav").css("margin-top" , "auto");
-            $(".navbar-toggler").css("margin-top" , "0px");
+            $(".navbar-toggler").css("margin-top" , "15px");
         }
 
         else{
@@ -17,7 +17,7 @@ $(document).ready(function(){
             $(".navlogo").css("width" , "90");
             $(".navbar-brand").css("margin-top" , "-8px");
             $(".navbar-nav").css("margin-top" , "-32px");
-            $(".navbar-toggler").css("margin-top" , "-32px");
+            $(".navbar-toggler").css("margin-top" , "-px");
         }
     })
 })
