@@ -17,7 +17,7 @@ $(document).ready(function(){
             $(".navlogo").css("width" , "90");
             $(".navbar-brand").css("margin-top" , "-8px");
             $(".navbar-nav").css("margin-top" , "-32px");
-            $(".navbar-toggler").css("margin-top" , "-px");
+            $(".navbar-toggler").css("margin-top" , "-3.5px");
         }
     })
 })
