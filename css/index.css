@@ -19,7 +19,7 @@ body {
 }
 
 .nav-item:hover {
-    /*transform: translate3d(2px,2px,2px);*/
+    transform: translate3d(2px,2px,2px);
     font-size: xx-large;
     /* text-shadow: 0.5px 0.5px 0.5px #acacac; */
     text-decoration: underline;
@@ -717,5 +717,11 @@ border-color: black;
 @media only screen and (max-device-width: 1025px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     .socialiconscol {
         display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 770px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .navtop {
+        margin-top: 0em !important;
     }
 }

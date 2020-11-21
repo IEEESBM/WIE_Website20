@@ -768,3 +768,9 @@ border-color: black;
         margin-top: 0em;
     }
 } 
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 770px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .navtop {
+        margin-top: 0em !important;
+    }
+}

@@ -865,3 +865,19 @@ border-color: black;
         padding: 190px 32px 0px 0px; 
     }
 }
+
+@media only screen and (max-device-width: 1025px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .socialiconscol {
+        display: none !important;
+    }
+
+    /* .navtop {
+        margin-top: 0em;
+    } */
+}
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 770px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .navtop {
+        margin-top: 0em !important;
+    }
+}
