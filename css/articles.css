@@ -313,7 +313,7 @@ button.navbar-toggler {
 .blog-post__img{
     min-width: 20rem;
     max-width: 20rem;
-    height: 20rem;
+    /*height: 20rem;*/
     transform: translateX(-8rem);
     position: relative;
 }
