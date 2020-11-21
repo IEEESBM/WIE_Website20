@@ -9,7 +9,9 @@ html,body {
     overflow-x: hidden;
     padding: 0px 0px 0px 0px;
     z-index: 0; 
+    scroll-behavior: smooth;
 }
+
 .navbar {
     /* position: absolute; */
     font-weight: 700;
