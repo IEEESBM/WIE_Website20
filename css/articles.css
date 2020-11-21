@@ -493,6 +493,9 @@ button.navbar-toggler {
         display: block;
         margin-top: 1.2em;
     }
+    .socialrow {
+        margin-top: -10em;
+    }
 
     .socialiconscol2mobile {
         padding: 0rem;
@@ -636,5 +639,10 @@ text-align: center;
         height: 60%;
         margin-top: 350%;
         display: none!important;
+    }
+}
+@media only screen and (max-device-width: 1025px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .socialiconscol {
+        display: none !important;
     }
 }

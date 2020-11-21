@@ -363,6 +363,9 @@ filter:alpha(opacity=50); /* for <= IE 8 */
         display: block;
         margin-top: 1.2em;
     }
+    .socialrow {
+        margin-top: -6em;
+    }
 
     .socialiconscol2mobile {
         padding: 0rem;
@@ -452,4 +455,8 @@ filter:alpha(opacity=50); /* for <= IE 8 */
         width: 125%;
     } 
 }
-
+@media only screen and (max-device-width: 1025px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .socialiconscol {
+        display: none !important;
+    }
+}
