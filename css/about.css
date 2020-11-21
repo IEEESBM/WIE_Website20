@@ -588,13 +588,13 @@ border-color: black;
         align-items: center;
     }
     .contcard h4{
-        font-size: 4vw;
+        font-size: 3.7vw;
     }
     .contcard h5{
-        font-size: 3.5vw;
+        font-size: 3.2vw;
     }
     .contcard p{
-        font-size: 3vw;
+        font-size: 2.7vw;
     }
     .heading {
         font-size: 6vw;
@@ -622,7 +622,7 @@ border-color: black;
         height: 100vw; 
     }
     .carouselcont{
-        padding: 100px 32px 0px 0px; 
+        padding: 150px 32px 0px 0px; 
     }
     .socialiconscol {
         display: none;
@@ -746,7 +746,7 @@ border-color: black;
 @media only screen and (min-device-width: 1025px) {
 
 } 
-@media only screen and (max-device-width: 1025px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-height: 768px) and (max-device-width: 1025px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     .socialiconscol {
         display: none !important;
     }
@@ -774,42 +774,62 @@ border-color: black;
         padding: 200px 32px 0px 0px;
     }
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+    #aboutbg1 {
+        height: 50vh;
+        margin-top: 16em;
+        margin-left: -6em;
+    }
+    #aboutbg2 {
+        height: 50vh;
+        margin-top: -15em;
+        right: -8em;
+    }
+    #aboutbg3 {
+        height: 50vh;
+        margin-top: 12em;
+        margin-left: -12em;
+    }
+    #aboutbg4 {
+        height: 50vh;
+        margin-top: -8em;
+        margin-left: -6em;
+    }
+    #aboutbg5 {
+        height: 50vh;
+        margin-top: -15em;
+        right: -6em;
+    }
+    .carouselcont{
+        padding: 200px 32px 0px 0px;
+    }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     #abouthead {
         width: 60vw;
         margin-top: 4em;
     }
     #aboutbg1 {
-        height: 50vh;
-        margin-top: 34em;
-        margin-left: -8em;
+        display: none;
     }
     #aboutbg2 {
-        height: 50vh;
-        margin-top: -30em;
-        right: -10em;
+        display: none;
     }
     #aboutbg3 {
-        height: 50vh;
-        margin-top: 36em;
-        margin-left: -12em;
+        display: none;
     }
     #aboutbg4 {
-        height: 50vh;
-        margin-top: -10em;
-        margin-left: -10em;
+        display: none;
     }
     #aboutbg5 {
-        height: 50vh;
-        margin-top: -25em;
-        right: -8em;
+        display: none;
     }
     .carouselcont{
         padding: 250px 32px 0px 0px; 
     }
     
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
     #abouthead {
         width: 40vw;
         margin-top: 4em;
