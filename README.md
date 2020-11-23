@@ -4,8 +4,8 @@ Static website built using html, css and js tech.
 
 ## Contributors
 
- - Abhishek Srivastav (Mentor)
- - Anushree Bhatt (UI/UX Designer)
+ - Abhishek Srivastav (Mentor and Guide)
+ - Anushree Bhat (UI/UX Designer)
  - Ishika Agarwal
  - Harsh Mishra
  - Harindra Kandarpa
