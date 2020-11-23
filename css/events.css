@@ -582,3 +582,21 @@ border-color: black;
         margin-top: 0em !important;
     }
 }
+
+@media only screen and (min-device-width: 2155px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .socialiconscol {
+        margin-top: 1em;
+    }
+
+    .socialiconscol2 {
+        margin-left: 20em !important;
+    }
+
+    .contactdetailscol .row{
+        margin-left: 30em;
+    }
+
+    #sbmlogo {
+        margin-left: 10em;
+    }
+}
