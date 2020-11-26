@@ -543,6 +543,10 @@ border-color: black;
         height: 19% !important;
     }
 
+    .navlogo {
+        margin-left: 13px;
+    }
+
     .navbar-toggler {
         margin-top: -72px !important;
     }
@@ -652,6 +656,10 @@ border-color: black;
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .navlogo {
+        margin-left: 13px;
+    }
+    
     .card {
         /* Add shadows to create the "card" effect */
         border: 1px solid #000000;
