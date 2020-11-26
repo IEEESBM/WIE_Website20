@@ -535,6 +535,7 @@ border-color: black;
     color: #ffffff;
     box-shadow: 0rem 0rem 0.7rem 4px rgba(0, 0, 0, 0.2);
     text-decoration: none;
+    /* a */
 }
 
 @media only screen and (max-device-width: 768px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
