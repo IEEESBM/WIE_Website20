@@ -23,6 +23,18 @@ $(document).ready(function(){
 })
 
 
+window.addEventListener('scroll', function() {
+    var divCSS = window.getComputedStyle(document.getElementById('navcolormobile'));
+    var bg = divCSS.getPropertyValue('background-color');
+
+    // window.pageYOffset <= 250 && 
+    
+    if(bg == "rgb(240, 209, 240)"){
+        var element = document.getElementById("Navbar");
+        element.classList.remove("show");
+    }
+});
+
 function navMobile() {
     var divCSS = window.getComputedStyle(document.getElementById('navcolormobile'));
     var bg = divCSS.getPropertyValue('background-color');

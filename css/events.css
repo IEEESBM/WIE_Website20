@@ -266,6 +266,8 @@ border-color: black;
         background: none;
         box-shadow: 0.5rem 0.5rem 0.3rem 1px rgba(0,0,0,0.05);
         border-radius: 0.8rem;
+        background-image: linear-gradient(to right, #1668d3 0%, #9a30de 100%);
+        opacity: 0.2;
     }
 
     .landingdesktop {
