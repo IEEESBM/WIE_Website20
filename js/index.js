@@ -19,7 +19,7 @@ $(document).ready(function(){
             $(".navlogo").css("width" , "90");
             $(".nv-br").css("display" , "none");
             $(".nv-brtop").css("display" , "inline");
-            $(".navbar-brand").css("margin-top" , "-4.5px");
+            $(".navbar-brand").css("margin-top" , "-5.5px");
             $(".navbar-nav").css("margin-top" , "-35px");
             // $(".navbar-toggler").css("margin-top" , "-72px");
             $(".navbar-toggler").css("margin-bottom" , "19.5px");
